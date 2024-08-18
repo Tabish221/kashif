@@ -1,0 +1,175 @@
+/* header CSS */
+header {
+    -webkit-transition: all 0.4s ease-In-out;
+    -moz-transition: all 0.4s ease-In-out;
+    -o-transition: all 0.4s ease-In-out;
+    transition: all 0.4s ease-In-out;
+    position: absolute;
+    width: 1920px;
+    max-width: 100%;
+    margin: auto;
+    z-index: 5;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding: 25px 0;
+
+    &.sticky {
+        padding: 15px 25px;
+        background-color: #04140a;
+    }
+
+    .main-header {
+        .side-menuBar {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            span {
+                font-family: 'Roboto';
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 1;
+                color: #FFFFFF;
+                text-transform: uppercase;
+            }
+        }
+
+        .menuWrap {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+
+            /* Menu Css */
+            .menu {
+                font-size: 0px;
+                display: inline-flex;
+                gap: 25px;
+
+                li {
+                    &.last {
+                        padding-right: 0;
+                    }
+
+                    a {
+                        color: #fff;
+                        text-transform: uppercase;
+                        font-family: 'Roboto';
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 14px;
+                    }
+
+                    &:hover a,
+                    &.active a {
+                        color: #1887c5;
+                    }
+                }
+            }
+
+            .logo {
+                display: inline-block;
+                flex: 0 0 70px;
+            
+                img {
+                    display: block;
+                }
+            }
+            
+            
+        } 
+
+        .header-action {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            color: #fff;
+
+            .header-search {
+                i {
+                    font-size: 12px;
+                }
+            }
+
+            .header-lang {
+                padding: 0 30px 0 20px;
+
+                span {
+                    font-size: 12px;
+                }
+            }
+
+            .header-btn {
+                a {
+                    padding: 12px 20px;
+                    border: 0.5px solid #B08C63;
+                    font-family: 'Roboto';
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 1.2;
+                    color: #FFFFFF;
+                    text-wrap: nowrap;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/* Hamburger Menu */
+.menu-Bar {
+    width: 14px;
+    height: 14px;
+    display: block;
+    position: relative;
+}
+
+.menu-Bar span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: #ffffff;
+    position: absolute;
+    transition: .6s all;
+    border-radius: 100px;
+}
+
+.menu-Bar span:nth-child(1) {
+    top: 0;
+    width: 80%;
+}
+
+.menu-Bar span:nth-child(2) {
+    top: 6px;
+    transform-origin: left;
+}
+
+.menu-Bar span:nth-child(3) {
+    top: 12px;
+    width: 80%;
+}
+
+.menu-Bar.open span {
+    background: #ffffff;
+}
+
+.menu-Bar.open span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 12px;
+    transform-origin: right-center;
+}
+
+.menu-Bar.open span:nth-child(2) {
+    width: 0;
+    opacity: 0;
+}
+
+.menu-Bar.open span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 12px;
+    transform-origin: right-center;
+}
