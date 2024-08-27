@@ -104,39 +104,46 @@ document.addEventListener("DOMContentLoaded", function () {
     //     console.error("One or more elements are missing from the DOM.");
     // }
 
-    // Define the function to control video playback
     const registerVideo = (boundSelector, videoSelector) => {
         const bound = document.querySelector(boundSelector);
         const video = document.querySelector(videoSelector);
-
+    
         if (!bound || !video) {
             console.error("The bound element or video element is missing from the DOM.");
             return;
         }
-
+    
         const updateVideoPlayback = () => {
             if (video.duration) {
                 const scrollTop = locoScroll.scroll.instance.scroll.y;
-                const boundHeight = bound.scrollHeight - window.innerHeight;
-
-                
-                const distanceFromTop = bound.getBoundingClientRect().top + scrollTop;
-                const rawPercentScrolled = (scrollTop - distanceFromTop) / boundHeight;
+                const boundRect = bound.getBoundingClientRect();
+                const windowHeight = window.innerHeight;
+    
+                const rawPercentScrolled = (scrollTop - (boundRect.top + scrollTop)) / bound.scrollHeight;
                 const percentScrolled = Math.min(Math.max(rawPercentScrolled, 0), 1);
-                console.log(video.duration * percentScrolled);
-
+    
+                // Show video when any part of the section is in the viewport
+                if (boundRect.bottom > 0 && boundRect.top < windowHeight) {
+                    video.style.display = "block";
+                } else {
+                    video.style.display = "none";
+                }
+    
+                // Control video playback
                 video.currentTime = video.duration * percentScrolled;
             }
             requestAnimationFrame(updateVideoPlayback);
         };
-
+    
         // Initial call and attach scroll event listener
         requestAnimationFrame(updateVideoPlayback);
     };
-
+    
     // Example usage
     registerVideo('#video-section', '#v0');
+    registerVideo('.section2', '#v1');
 
+    
     // Update Locomotive Scroll and ScrollTrigger on window resize
     window.addEventListener('resize', () => {
         locoScroll.update();

@@ -14,12 +14,20 @@
 </head>
 
 <body>
-      <div id="set-height">
-         <video id="v0" width="600" muted>
-            <source src="assets/video/gold_rock.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-         </video>
-      </div>
+   <div id="set-height">
+      <video id="v0" width="600" muted loop >
+         <source src="assets/video/gold_rock.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+      </video>
+   </div>
+
+   <div id="set-height2">
+      <video id="v1" width="600" muted loop >
+         <source src="assets/video/gold_bar.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+      </video>
+   </div>
+
    <div  class="o-scroll" id="js-scroll" data-scroll-container>
       <?php include ("includes/header.php"); ?>
    
@@ -129,8 +137,7 @@
       </section>
 
       <section id="video-section" class="position-relative"  data-scroll-section>
-         
-         <section class="section1">   
+         <section class="section1 v2">   
             <div class="container-fluid z-index3">
                <div class="sec1-bottom">
                   <div class="row align-items-center">
@@ -181,9 +188,9 @@
                      </div>
       
                      <div class="col-md-4">
-                        <div class="sec1-imgCard">
+                        <!-- <div class="sec1-imgCard">
                            <img src="assets/images/gold.png" alt="Gold">
-                        </div>
+                        </div> -->
                      </div>
       
                      <div class="col-md-4">
@@ -419,7 +426,7 @@
                </div>
    
                <div class="sec2-center">
-                  <img src="assets/images/gold-bus.png" alt="GOLD" class=" c-opacity" data-scroll data-scroll-speed1="-3" data-scroll-repeat1>
+                  <!-- <img src="assets/images/gold-bus.png" alt="GOLD" class=" c-opacity" data-scroll data-scroll-speed1="-3" data-scroll-repeat1> -->
    
                   <div class="sec2-centCont mn-hd">
                      <h6 class=" c-opacity" data-scroll data-scroll-speed1="2" data-scroll-repeat1>Why partner with</h6>
@@ -473,7 +480,7 @@
                         </div>
                      </div>
                   </div>
-                  <img src="assets/images/land-gold2.png" alt="GOLD" class="" data-scroll data-scroll-speed1="4" data-scroll-repeat1>
+                  <!-- <img src="assets/images/land-gold2.png" alt="GOLD" class="" data-scroll data-scroll-speed1="4" data-scroll-repeat1> -->
                </div>
             </div>
          </div>

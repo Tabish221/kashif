@@ -64,7 +64,509 @@
 
 }
 
+@media (max-width: 1320px) {
+    header .main-header .menuWrap {
+        gap: 60px;
+    }
+    .mainBanner .mainBanner-cont h1 {
+        font-size: 70px;
+    }
+    .mainBanner .mainBanner-cont h2 {
+        font-size: 28px;
+    }
+    .mainBanner .mainBanner-cont p {
+        font-size: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .mainBanner .mainBanner-cont p + p {
+        padding-top: 20px;
+    }
+    .mainBanner .mainBanner-cont .mn-btn {
+        padding-top: 10px;
+    }
+    .mn-btn a {
+        margin-top: 20px;
+        padding: 20px 30px 20px;
+        gap: 26px;
+        font-size: 20px;
+    }
+    .mainBanner {
+        min-height: 50vh;
+        padding: 200px 0 150px;
+    }
+    .section1 .sec1-cont p {
+        font-size: 26px;
+    }
+    .section1 .sec1-cont {
+        padding-right: 1%;
+        padding-left: 1%;
+        padding-top: 30px;
+    }
+    .mn-hd h6 {
+        font-size: 36px;
+    }
+    .section2 .sec2-center .sec2-centCont h4 {
+        font-size: 95px;
+        padding-top: 25px;
+    }
+    .section2 .sec2-center .sec2-centCont {
+        height: 620px;
+    }
+    .mn-hd h4 {
+        font-size: 42px;
+    }
+    .section2 .sec2-bottomCard .sec2-icon span {
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .section2 .sec2-bottomCard .sec2-icon {
+        flex: 0 0 60px;
+    }
+    .section2 .sec2-bottomCard::before {
+        left: 25px;
+        top: 80px;
+    }
+    .section2 .sec2-bottomCard::after {
+        left: 28px;
+        top: 85px;
+    }
+    .section2 .sec2-bottomCard p {
+        font-size: 20px;
+        line-height: 1.4;
+        padding-top: 15px;
+    }
+    .section2 .sec2-bottomCard.xy2 {
+        padding-bottom: 200px;
+    }
+    .mapSection {
+        padding: 70px 0 0;
+    }
+    .newsSec-card .cont p {
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+    .newsSec-card .cont h6 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+    .newsSec-card .cont span {
+        font-size: 18px;
+    }
+    .videoSection .videoSec-playBtn {
+        padding: 150px 0;
+    }
+    .videoSection .videoSec-cont p {
+        font-size: 22px;
+        padding-right: 20px;
+    }
+    .videoSection .videoSec-cont h4 {
+        font-size: 45px;
+    }
+    .videoSection .videoSec-playBtn a {
+        width: 80px;
+        height: 80px;
+    }
+    .contactSection .contactSec-hd h4 {
+        font-size: 62px;
+    }
+    .contactSection .contactSec-hd {
+        padding: 0 1% 70px;
+    }
+    .contactSection .contactSec-hd p {
+        padding-top: 10px;
+        font-size: 32px;
+        line-height: 1.2;
+    }
+    .contactSec-main {
+        padding: 150px 1% 90px;
+    }
+    .contactSec-main .contactSec-form h6 {
+        font-size: 36px;
+        padding-bottom: 30px;
+    }
+    footer {
+        padding: 60px 0 150px;
+    }
+    footer .footerBackBtn {
+        padding-bottom: 40px;
+    }
+    footer .getTouch-footerForm label {
+        font-size: 18px;
+        line-height: 1.2;
+        padding-bottom: 25px;
+    }
+    footer .widget {
+        gap: 25px;
+    }
+    footer .footerLink ul li a {
+        font-size: 16px;
+    }
+    footer .footerLink ul {
+        gap: 15px;
+    }
+    
+    
+}
+
 @media (max-width:1200px) {
+    .section1 .sec1-bottom .sec1-contCard h5 {
+        padding: 15px 20px;
+        gap: 10px;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    .mn-btn a {
+        margin-top: 10px;
+        padding: 15px 20px 15px;
+        gap: 15px;
+        font-size: 20px;
+    }
+    .aboutSection .aboutSec-main .aboutSec-contCard h5 {
+        font-size: 32px;
+    }
+    .aboutSection .aboutSec-main .aboutSec-contCard {
+        padding: 15px;
+    }
+    .aboutSection .aboutSec-main .aboutSec-contCard p {
+        font-size: 18px;
+        line-height: 1.2;
+        padding-top: 15px;
+    }
+    .mn-hd h5 svg {
+        width: 24px;
+    }
+    .mn-hd h5 svg {
+        width: 24px;
+        height: auto;
+    }
+    header .main-header .menuWrap .menu {
+        gap: 15px;
+    }
+    header .main-header .menuWrap {
+        gap: 20px;
+    }
+    header .main-header .header-action .header-lang {
+        padding: 0 10px 0 10px;
+    }
+    header .main-header .header-action .header-btn a {
+        padding: 10px 12px;
+        font-size: 10px;
+    }
+    
+    
+}
+
+@media (max-width: 992px) {
+    .mainBanner .mainBanner-cont {
+        padding: 0 50px;
+    }
+    .section1 .sec1-hd span {
+        font-size: 140px;
+    }
+    .mn-hd h6 {
+        font-size: 30px;
+    }
+    .mn-hd h5 {
+        gap: 15px;
+        font-size: 30px;
+    }
+    .section1 {
+        padding: 50px 0 40px;
+    }
+    .section1 .sec1-cont a {
+        margin-top: 30px;
+        padding: 15px 30px;
+        gap: 15px;
+        font-size: 18px;
+    }
+    .mn-btn a {
+        margin-top: 10px;
+        padding: 12px 15px 12px;
+        gap: 5px;
+        font-size: 14px;
+
+        .icon svg {
+            width: 12px;
+        }
+    }
+    .videoSection .videoSec-cont h4 {
+        font-size: 32px;
+    }
+    .videoSection .videoSec-cont p {
+        font-size: 16px;
+        padding-right: 0px;
+    }
+    .section2 {
+        padding: 50px 0 0 0;
+    }
+    .section2 .sec2-center {
+        padding: 50px 0 50px;
+    }
+    .section2 .sec2-center .sec2-centCont h4 {
+        font-size: 72px;
+        padding-top: 15px;
+    }
+    .section2 .sec2-center .sec2-centCont {
+        height: 400px;
+    }
+    .section2 .sec2-bottomCard {
+        gap: 10px;
+    }
+    .section2 .sec2-bottomCard p {
+        font-size: 16px;
+    }
+    .mn-hd h4 {
+        font-size: 24px;
+    }
+    .section2 .sec2-bottomCard .sec2-icon span {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .section2 .sec2-bottomCard .sec2-icon {
+        flex: 0 0 40px;
+    }
+    .section2 .sec2-bottomCard::before {
+        left: 16px;
+        top: 50px;
+    }
+    .section2 .sec2-bottomCard::after {
+        left: 19px;
+        top: 55px;
+    }
+    .section2 .sec2-bottomCard.xy2 {
+        padding-bottom: 150px;
+    }
+    .section2 .sec2-bottom {
+        padding-right: 1%;
+        padding-left: 1%;
+        padding-bottom: 200px;
+    }
+    .newsSec-card .cont {
+        padding: 15px;
+    }
+    .newsSec-card {
+        border-radius: 8px;
+    }
+    .newsSec-card .cont p {
+        font-size: 14px;
+        padding-bottom: 14px;
+    }
+    .newsSec-card .cont h6 {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+    .newsSection .newsSec-btn {
+        padding-top: 30px;
+    }
+    .contactSection {
+        padding: 50px 0 0;
+    }
+    .contactSection .contactSec-hd {
+        padding: 0 1% 40px;
+    }
+    .contactSection .contactSec-hd h4 {
+        font-size: 48px;
+    }
+    .contactSection .contactSec-hd p {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .contactSec-main .contactSec-form .contactSec-formFeild label {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .contactSec-main {
+        padding: 140px 1% 60px;
+    }
+    footer .widget {
+        gap: 30px;
+        flex-direction: column;
+    }
+    footer .getTouch-footerFormFeild form {
+        gap: 0px;
+    }
+    footer {
+        padding: 40px 0 40px;
+    }
+    .copyright {
+        padding: 20px 0;
+    }
+    .copyright ul {
+        gap: 20px;
+    }
+    .section1 .sec1-bottom .sec1-contCard p {
+        font-size: 16px;
+    }
+    .section1 .sec1-bottom .sec1-contCard h5 .icon svg {
+        width: 16px;
+        height: auto;
+    }
+    .section1 .sec1-bottom .sec1-contCard h5 {
+        padding: 10px 15px;
+        gap: 6px;
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+    .section1 .sec1-bottom .col-md-4 {
+        gap: 30px;
+    }
+    .aboutSection {
+        padding-bottom: 60px;
+        padding-top: 40px;
+    }
+    .mn-hd h5 {
+        gap: 10px;
+        font-size: 22px;
+    }
+    .aboutSection .aboutSec-main .aboutSec-imgCard span {
+        font-size: 14px;
+        top: 15px;
+        left: 15px;
+    }
+    .aboutSection .aboutSec-main .aboutSec-contCard p {
+        font-size: 15px;
+        line-height: 1.2;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .mainBanner .bannerAfter {
+        left: -30px;
+        gap: 55px;
+    }
+    .mainBanner .bannerAfter span {
+        font-size: 10px;
+    }
+    .mainBanner .bannerBefore {
+        right: 5px;
+        gap: 10px;
+    }
+    .mainBanner .bannerBefore .ssLine a {
+        font-size: 10px;
+    }
+    .mainBanner .mainBanner-cont {
+        padding: 0 20px;
+    }
+    .mainBanner .mainBanner-cont h2 {
+        font-size: 18px;
+    }
+    .mainBanner .mainBanner-cont h1 {
+        font-size: 38px;
+    }
+    .mainBanner .mainBanner-cont p {
+        font-size: 14px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .mainBanner .mainBanner-cont p + p {
+        padding-top: 10px;
+    }
+    .mainBanner {
+        min-height: 60vh;
+        padding: 100px 0 40px;
+    }
+    .section1 .sec1-cont p {
+        font-size: 16px;
+    }
+    .section1 .sec1-cont p + p {
+        padding-top: 20px;
+    }
+    .section1 .sec1-cont a {
+        margin-top: 20px;
+        padding: 10px 10px;
+        gap: 10px;
+        font-size: 14px;
+
+        svg {
+            width: 12px;
+            height: auto;
+        }
+    }
+    .videoSection {
+        padding: 40px 2% 50px;
+    }
+    .videoSection .videoSec-playBtn {
+        padding: 30px 0;
+    }
+    .videoSec-cont .row {
+        row-gap: 15px;
+        flex-direction: column-reverse;
+    }
+    .videoSection .videoSec-cont p {
+        font-size: 14px;
+    }
+    .videoSection .videoSec-cont h4 {
+        font-size: 18px;
+    }
+    .videoSection .videoSec-playBtn a svg {
+        width: 13px;
+        height: auto;
+        margin-top: -2px;
+        margin-left: 3px;
+    }
+    .videoSection .videoSec-playBtn a {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: -10px;
+        right: 0;
+    }
+    .section2 {
+        padding: 30px 0 0 0;
+    }
+    .section2 .sec2-center .sec2-centCont h4 {
+        font-size: 46px;
+        padding-top: 10px;
+    }
+    .mn-hd h6 {
+        font-size: 22px;
+    }
+    .section2 .sec2-center .sec2-centCont {
+        height: 320px;
+    }
+    .section2 .sec2-bottomCard.xy2, .section2 .sec2-bottomCard {
+        padding-bottom: 40px;
+    }
+    .section2 .sec2-bottomCard::after {
+        height: calc(100% - 55px);
+    }
+    .section2 .sec2-center {
+        padding: 30px 0 30px;
+    }
+    .section2 .sec2-bottom {
+        padding-bottom: 70px;
+    }
+    .mapSection {
+        padding: 40px 0 0;
+    }
+    br {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     img {
         max-width: 100%;
         height: auto;
@@ -141,5 +643,3 @@
         display: none;
     }
 }
-
-@media (max-width:824px) {}

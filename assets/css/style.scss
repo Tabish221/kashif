@@ -36,6 +36,7 @@
     display: flex;
     align-items: center;
     position: relative;
+    z-index: 3;
     padding: 180px 0 100px;
 
     .container,
@@ -163,9 +164,23 @@
     }
 }
 
+#video-section {
+    position: relative;
+    z-index: 3;
+    padding-top: 150vh;
+}
+
 .section1 {
-    // background-color: #1E1E1E;
+    background: linear-gradient(178.69deg, #04140A 8.67%, #161C0F 99.87%);
     padding: 90px 0 50px;
+    position: relative;
+    z-index: 3;
+
+    &.v2 {
+        z-index: 2;
+        background: none;
+        background-color: transparent;
+    }
 
     .sec1-hd {
         position: relative;
@@ -396,6 +411,7 @@
     position: relative;
     font-size: 0;
     margin-bottom: -2px;
+    z-index: 3;
 
     .videoSec-playBtn {
         text-align: center;
@@ -433,7 +449,8 @@
 .section2 {
     padding: 100px 0 0 0;
     position: relative;
-    background-color: #04140A;
+    background-color: transparent;
+    z-index: 3;
 
     .sec2-center {
         text-align: center;
@@ -441,14 +458,13 @@
         position: relative;
 
         .sec2-centCont {
-            height: fit-content;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            left: 0;
             margin: auto;
             text-align: center;
+            height: 850px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
 
             h4 {
                 font-size: 150px;
@@ -536,6 +552,9 @@
 
 .mapSection {
     padding: 135px 0 0;
+    position: relative;
+    z-index: 3;
+    background-color: #04140A;
 
     .mapSec-hd {
         padding: 0 12%;
@@ -547,6 +566,10 @@
 }
 
 .newsSection {
+    position: relative;
+    z-index: 3;
+    background-color: #04140A;
+
     .newsSec-hd {
         padding: 0 12% 80px;
 
@@ -607,6 +630,9 @@
 
 .contactSection {
     padding: 100px 0 0;
+    position: relative;
+    z-index: 3;
+    background-color: #04140A;
 
     .contactSec-hd {
         padding: 0 5% 145px;
@@ -698,6 +724,9 @@
 
 footer {
     padding: 150px 0 270px;
+    position: relative;
+    z-index: 3;
+    background-color: #04140A;
 
     .footerBackBtn {
         padding-bottom: 120px;
@@ -810,6 +839,9 @@ footer {
 
 .copyright {
     padding: 50px 0;
+    position: relative;
+    z-index: 3;
+    background-color: #04140A;
 
     p {
         font-weight: 500;
@@ -1276,7 +1308,6 @@ footer {
     }
 }
 
-
 .historySection {
     padding: 100px 0;
     overflow: hidden;
@@ -1340,7 +1371,6 @@ footer {
         }
     }
 }
-
 
 .missionSection {
     padding: 100px 0;
@@ -1714,7 +1744,7 @@ footer {
     }
 }
 
-#v0 {
+#v0, #v1 {
     // position: fixed;
     // top: 0;
     // left: 0;
@@ -1727,8 +1757,8 @@ footer {
 }
 
 #set-height {
-    width: 80vw;
-    height: 80vh;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -1738,7 +1768,21 @@ footer {
     z-index: 1;
 }
 
+#set-height2 {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 2;
+}
+
 .z-index3 {
     position: relative;
     z-index: 3;
 }
+
+@import "responsive";
