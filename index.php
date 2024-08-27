@@ -8,9 +8,18 @@
    <meta name="description" content="">
    <title>SGL</title>
    <?php include ("includes/style.php"); ?>
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.16/build/mediaelementplayer.min.css">
+
 </head>
 
 <body>
+      <div id="set-height">
+         <video id="v0" width="600" muted>
+            <source src="assets/video/gold_rock.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+         </video>
+      </div>
    <div  class="o-scroll" id="js-scroll" data-scroll-container>
       <?php include ("includes/header.php"); ?>
    
@@ -65,12 +74,12 @@
             </div>
    
             <div class="mainBanner-cont">
-               <h2 class="c-opacity" data-scroll-repeat data-scroll data-scroll-speed="1">Unrivaled Excellence in</h2>
-               <h1 class="c-opacity" data-scroll-repeat data-scroll data-scroll-speed="2">Gold Refining</h1>
-               <p class="c-opacity" data-scroll-repeat data-scroll data-scroll-speed="3">SGL is a Tanzanian-based gold refinery, leveraging decade-long expertise to refine and trade fine gold bullion while prioritising the well-being of miners and the environment.</p>
-               <p class="c-opacity" data-scroll-repeat data-scroll data-scroll-speed="3">At SGL, it's more than gold; it's about people.</p>
+               <h2 class="c-opacity" data-scroll-repeat1 data-scroll data-scroll-speed1="1">Unrivaled Excellence in</h2>
+               <h1 class="c-opacity" data-scroll-repeat1 data-scroll data-scroll-speed1="2">Gold Refining</h1>
+               <p class="c-opacity" data-scroll-repeat1 data-scroll data-scroll-speed1="3">SGL is a Tanzanian-based gold refinery, leveraging decade-long expertise to refine and trade fine gold bullion while prioritising the well-being of miners and the environment.</p>
+               <p class="c-opacity" data-scroll-repeat1 data-scroll data-scroll-speed1="3">At SGL, it's more than gold; it's about people.</p>
    
-               <div class="mn-btn" class="c-opacity" data-scroll-repeat data-scroll data-scroll-speed="4">
+               <div class="mn-btn" class="c-opacity" data-scroll-repeat1 data-scroll data-scroll-speed1="4">
                   <a href="#">WATCH THE FILM</a>
                </div>
             </div>
@@ -80,7 +89,7 @@
       <section class="section1" data-scroll-section>
          <div class="container-fluid">
             <div class="sec1-hd mn-hd" >
-               <h5  class="c-opacity" data-scroll data-scroll-speed="2" data-scroll-repeat>
+               <h5  class="c-opacity" data-scroll data-scroll-speed1="2" data-scroll-repeat1>
                   <div class="icon">
                      <svg width="43" height="46" viewBox="0 0 43 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -91,23 +100,23 @@
                   </div> Empowering Miners
                </h5>
    
-               <h6 class="c-opacity" data-scroll-repeat data-scroll data-scroll-speed="3" >Empowering local miners <br> since 2019</h6>
+               <h6 class="c-opacity" data-scroll-repeat1 data-scroll data-scroll-speed1="3" >Empowering local miners <br> since 2019</h6>
    
-               <span class="c-opacity c-opacity005" data-scroll data-scroll-speed="4" data-scroll-repeat>2019</span>
+               <span class="c-opacity c-opacity005" data-scroll data-scroll-speed1="4" data-scroll-repeat1>2019</span>
             </div>
    
-            <div class="sec1-img c-opacity" data-scroll-repeat data-scroll data-scroll-speed="4">
+            <div class="sec1-img c-opacity" data-scroll-repeat1 data-scroll data-scroll-speed1="4">
                <img src="assets/images/sec1-img.png" alt="Img">
             </div>
    
             <div class="sec1-cont">
-               <p class="c-opacity" data-scroll-repeat data-scroll  data-scroll-speed="2">As a value-driven firm, SGL maintains close partnerships with artisanal miners and ensures responsible
+               <p class="c-opacity" data-scroll-repeat1 data-scroll  data-scroll-speed1="2">As a value-driven firm, SGL maintains close partnerships with artisanal miners and ensures responsible
                   mining practices. </p>
-               <p class="c-opacity" data-scroll-repeat data-scroll  data-scroll-speed="3">This approach fosters a mutually beneficial relationship, benefiting both miners and the regions’s
+               <p class="c-opacity" data-scroll-repeat1 data-scroll  data-scroll-speed1="3">This approach fosters a mutually beneficial relationship, benefiting both miners and the regions’s
                   thriving gold industry.
                </p>
    
-               <a href="#" class="c-opacity" data-scroll-repeat data-scroll  data-scroll-speed="4">
+               <a href="#" class="c-opacity" data-scroll-repeat1 data-scroll  data-scroll-speed1="4">
                   Learn More
                   <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <path
@@ -118,171 +127,233 @@
             </div>
          </div>
       </section>
-   
-      <section class="section1" data-scroll-section>
-         <div class="container-fluid">
-            <div class="sec1-bottom">
-               <div class="row align-items-center">
-                  <div class="col-md-4">
-                     <div class="sec1-contCard box1 c-opacity" data-scroll data-scroll-speed="2" data-scroll-repeat>
-                        <h5>
-                           <div class="icon">
-                              <svg width="44" height="42" viewBox="0 0 44 42" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <g clip-path="url(#clip0_108_62)">
-                                    <path
-                                       d="M15.3973 20.9902L19.5171 25.11L27.7566 16.8704M38.0561 20.9902C38.0561 30.1796 26.8091 36.8384 22.8982 38.8762C22.4753 39.0966 22.2638 39.2068 21.9704 39.2639C21.7418 39.3084 21.4122 39.3084 21.1835 39.2639C20.8902 39.2068 20.6787 39.0966 20.2558 38.8762C16.3448 36.8384 5.0979 30.1796 5.0979 20.9902V13.1989C5.0979 11.552 5.0979 10.7285 5.36725 10.0207C5.60519 9.39539 5.99185 8.83745 6.4938 8.39509C7.062 7.89435 7.83302 7.60522 9.37505 7.02695L20.4197 2.8852C20.848 2.72461 21.062 2.64432 21.2824 2.61247C21.4777 2.58425 21.6763 2.58425 21.8715 2.61247C22.092 2.64432 22.306 2.72461 22.7342 2.8852L33.7789 7.02695C35.321 7.60522 36.092 7.89435 36.6601 8.39509C37.1621 8.83745 37.5487 9.39539 37.7866 10.0207C38.0561 10.7285 38.0561 11.552 38.0561 13.1989V20.9902Z"
-                                       stroke="#4B6150" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-                                 </g>
-                                 <defs>
-                                    <clipPath id="clip0_108_62">
-                                       <rect width="43" height="41" fill="white"
-                                          transform="translate(0.0770264 0.442871)" />
-                                    </clipPath>
-                                 </defs>
-                              </svg>
-                           </div>
-   
-                           Safety Protocols
-                        </h5>
-   
-                        <p>We provide safety gear to miners and refiners so they can protect themselves from harm and
-                           continue their service to the gold industry for years to come.</p>
-                     </div>
-   
-                     <div class="sec1-contCard box2 c-opacity" data-scroll data-scroll-speed="4" data-scroll-repeat>
-                        <h5>
-                           <div class="icon">
-                              <svg width="40" height="33" viewBox="0 0 40 33" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M37.6903 10.9512L20.056 2.13403L2.42175 10.9512L20.056 19.7683L37.6903 10.9512ZM37.6903 10.9512V21.5317M32.4 13.5963V24.1769L20.056 30.3489L7.71204 24.1769V13.5963"
-                                    stroke="#4B6150" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-                              </svg>
-                           </div>
-   
-                           Education
-                        </h5>
-   
-                        <p>We actively engage in community development initiatives, including education and skill
-                           development for miners and their families.</p>
-                     </div>
-                  </div>
-   
-                  <div class="col-md-4">
-                     <div class="sec1-imgCard">
-                        <img src="assets/images/gold.png" alt="Gold">
-                     </div>
-                  </div>
-   
-                  <div class="col-md-4">
-                     <div class="sec1-contCard box3 c-opacity" data-scroll data-scroll-speed="3" data-scroll-repeat>
-                        <h5>
-                           <div class="icon">
-                              <svg width="37" height="40" viewBox="0 0 37 40" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M22.3206 17.2668C22.3206 19.9715 17.9353 22.1642 12.5259 22.1642C7.1164 22.1642 2.73114 19.9715 2.73114 17.2668M22.3206 17.2668C22.3206 14.5621 17.9353 12.3695 12.5259 12.3695C7.1164 12.3695 2.73114 14.5621 2.73114 17.2668M22.3206 17.2668V25.1026M2.73114 17.2668V25.1026M22.3206 25.1026C22.3206 27.8073 17.9353 30 12.5259 30C7.1164 30 2.73114 27.8073 2.73114 25.1026M22.3206 25.1026V32.9384C22.3206 35.6431 17.9353 37.8358 12.5259 37.8358C7.1164 37.8358 2.73114 35.6431 2.73114 32.9384V25.1026M34.0743 7.47208C34.0743 4.76734 29.689 2.57471 24.2796 2.57471C20.4026 2.57471 17.0518 3.70097 15.4643 5.33481M34.0743 7.47208C34.0743 9.28479 32.1046 10.8675 29.1769 11.7143M34.0743 7.47208V24.1231C34.0743 25.5734 32.1046 26.8394 29.1769 27.5168M34.0743 16.2873C34.0743 17.7697 32.0164 19.0597 28.9809 19.7253"
-                                    stroke="#4B6150" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-                              </svg>
-                           </div>
-   
-                           Fair Pay
-                        </h5>
-   
-                        <p>We believe mining and refining are not an easy occupations and therefore we ensure that local
-                           artisanal miners receive fair incentives for their contributions.</p>
-                     </div>
-   
-                     <div class="sec1-contCard box4 c-opacity" data-scroll data-scroll-speed="1" data-scroll-repeat>
-                        <h5>
-                           <div class="icon">
-                              <svg width="43" height="42" viewBox="0 0 43 42" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M29.236 10.6342V9.08698C29.236 6.92071 29.236 5.83756 28.8144 5.01016C28.4436 4.28233 27.8518 3.69061 27.1241 3.31978C26.2967 2.89819 25.2135 2.89819 23.0472 2.89819H19.9528C17.7866 2.89819 16.7034 2.89819 15.876 3.31978C15.1482 3.69061 14.5564 4.28233 14.1856 5.01016C13.764 5.83756 13.764 6.92071 13.764 9.08698V10.6342M11.83 10.6342V37.7101M31.17 10.6342V37.7101M17.632 24.1721C17.632 24.1721 22.3469 24.1721 25.368 24.1721M21.5 20.3042C21.5 23.3252 21.5 25.019 21.5 28.0401M13.3772 37.7101H29.6228C32.8723 37.7101 34.4968 37.7101 35.7381 37.0777C36.8298 36.5215 37.7173 35.634 38.2736 34.5422C38.906 33.301 38.906 31.6764 38.906 28.4269V19.9174C38.906 16.6679 38.906 15.0432 38.2736 13.8021C37.7173 12.7104 36.8298 11.8228 35.7381 11.2666C34.4968 10.6342 32.8723 10.6342 29.6228 10.6342H13.3772C10.1278 10.6342 8.5031 10.6342 7.262 11.2666C6.17028 11.8228 5.28269 12.7104 4.72643 13.8021C4.09406 15.0432 4.09406 16.6679 4.09406 19.9174V28.4269C4.09406 31.6764 4.09406 33.301 4.72643 34.5422C5.28269 35.634 6.17028 36.5215 7.262 37.0777C8.5031 37.7101 10.1278 37.7101 13.3772 37.7101Z"
-                                    stroke="#4B6150" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-                              </svg>
-                           </div>
-   
-                           Healthcare
-                        </h5>
-   
-                        <p>We truly believe health is wealth and therefore we provide medical benefits to our miners and
-                           refiners.</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-   
-      <section class="aboutSection" data-scroll-section>
-         <div class="container-fluid" >
-            <div class="aboutSec-main">
-               <div class="aboutSec-hd mn-hd" data-scroll  data-scroll-speed="2">
-                  <h5>
-                     <div class="icon">
-                        <svg width="43" height="46" viewBox="0 0 43 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path
-                              d="M28.6141 21.3638L19.1228 11.8725L21.6252 9.37012L35.3883 23.1332L21.6252 36.8962L19.1228 34.3938L28.6141 24.9027H7.07715V21.3638H28.6141Z"
-                              fill="#FCC78C" />
-                        </svg>
-   
-                     </div> About SGL
-                  </h5>
-   
-                  <h4>Making bold moves <br> in the gold industry</h4>
-   
-                  <div class="mn-btn">
-                     <a href="#">
-                        Learn More
-   
-                        <div class="icon">
-                           <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path
-                                 d="M12.9323 7.40726L7.23308 1.54545L8.73566 0L17 8.50007L8.73566 17L7.23308 15.4546L12.9323 9.59287H0V7.40726H12.9323Z"
-                                 fill="#FCC78C" />
-                           </svg>
+
+      <section id="video-section" class="position-relative"  data-scroll-section>
+         
+         <section class="section1">   
+            <div class="container-fluid z-index3">
+               <div class="sec1-bottom">
+                  <div class="row align-items-center">
+                     <div class="col-md-4">
+                        <div class="sec1-contCard box1 c-opacity" data-scroll data-scroll-speed1="2" data-scroll-repeat1>
+                           <h5>
+                              <div class="icon">
+                                 <svg width="44" height="42" viewBox="0 0 44 42" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_108_62)">
+                                       <path
+                                          d="M15.3973 20.9902L19.5171 25.11L27.7566 16.8704M38.0561 20.9902C38.0561 30.1796 26.8091 36.8384 22.8982 38.8762C22.4753 39.0966 22.2638 39.2068 21.9704 39.2639C21.7418 39.3084 21.4122 39.3084 21.1835 39.2639C20.8902 39.2068 20.6787 39.0966 20.2558 38.8762C16.3448 36.8384 5.0979 30.1796 5.0979 20.9902V13.1989C5.0979 11.552 5.0979 10.7285 5.36725 10.0207C5.60519 9.39539 5.99185 8.83745 6.4938 8.39509C7.062 7.89435 7.83302 7.60522 9.37505 7.02695L20.4197 2.8852C20.848 2.72461 21.062 2.64432 21.2824 2.61247C21.4777 2.58425 21.6763 2.58425 21.8715 2.61247C22.092 2.64432 22.306 2.72461 22.7342 2.8852L33.7789 7.02695C35.321 7.60522 36.092 7.89435 36.6601 8.39509C37.1621 8.83745 37.5487 9.39539 37.7866 10.0207C38.0561 10.7285 38.0561 11.552 38.0561 13.1989V20.9902Z"
+                                          stroke="#4B6150" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                       <clipPath id="clip0_108_62">
+                                          <rect width="43" height="41" fill="white"
+                                             transform="translate(0.0770264 0.442871)" />
+                                       </clipPath>
+                                    </defs>
+                                 </svg>
+                              </div>
+      
+                              Safety Protocols
+                           </h5>
+      
+                           <p>We provide safety gear to miners and refiners so they can protect themselves from harm and
+                              continue their service to the gold industry for years to come.</p>
                         </div>
-                     </a>
-                  </div>
-               </div>
-   
-               <div class="aboutSec-img text-end">
-                  <img src="assets/images/land-gold.png" alt="GOLD"  data-scroll  data-scroll-speed="0.5">
-   
-                  <div class="aboutSec-contCard"  data-scroll  data-scroll-speed="3">
-                     <div class="">
-                        <h5>2019</h5>
-                        <p>Founded SGL to position Tanzania’s gold industry on a global scale and build a robust
-                           international gold export network.</p>
+      
+                        <div class="sec1-contCard box2 c-opacity" data-scroll data-scroll-speed1="4" data-scroll-repeat1>
+                           <h5>
+                              <div class="icon">
+                                 <svg width="40" height="33" viewBox="0 0 40 33" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M37.6903 10.9512L20.056 2.13403L2.42175 10.9512L20.056 19.7683L37.6903 10.9512ZM37.6903 10.9512V21.5317M32.4 13.5963V24.1769L20.056 30.3489L7.71204 24.1769V13.5963"
+                                       stroke="#4B6150" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                                 </svg>
+                              </div>
+      
+                              Education
+                           </h5>
+      
+                           <p>We actively engage in community development initiatives, including education and skill
+                              development for miners and their families.</p>
+                        </div>
                      </div>
-                  </div>
-   
-                  <div class="aboutSec-imgCard nx1" data-scroll  data-scroll-speed="3">
-                     <span>1999</span>
-                     <img src="assets/images/about/1.png" alt="">
-                  </div>
-   
-                  <div class="aboutSec-imgCard nx2" data-scroll  data-scroll-speed="1">
-                     <span>2019</span>
-                     <img src="assets/images/about/2.png" alt="">
-                  </div>
-   
-                  <div class="aboutSec-imgCard nx3" data-scroll  data-scroll-speed="2">
-                     <span>2011</span>
-                     <img src="assets/images/about/3.png" alt="">
-                  </div>
-   
-                  <div class="aboutSec-imgCard nx4" data-scroll  data-scroll-speed="1">
-                     <span>2023</span>
-                     <img src="assets/images/about/4.png" alt="">
+      
+                     <div class="col-md-4">
+                        <div class="sec1-imgCard">
+                           <img src="assets/images/gold.png" alt="Gold">
+                        </div>
+                     </div>
+      
+                     <div class="col-md-4">
+                        <div class="sec1-contCard box3 c-opacity" data-scroll data-scroll-speed1="3" data-scroll-repeat1>
+                           <h5>
+                              <div class="icon">
+                                 <svg width="37" height="40" viewBox="0 0 37 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M22.3206 17.2668C22.3206 19.9715 17.9353 22.1642 12.5259 22.1642C7.1164 22.1642 2.73114 19.9715 2.73114 17.2668M22.3206 17.2668C22.3206 14.5621 17.9353 12.3695 12.5259 12.3695C7.1164 12.3695 2.73114 14.5621 2.73114 17.2668M22.3206 17.2668V25.1026M2.73114 17.2668V25.1026M22.3206 25.1026C22.3206 27.8073 17.9353 30 12.5259 30C7.1164 30 2.73114 27.8073 2.73114 25.1026M22.3206 25.1026V32.9384C22.3206 35.6431 17.9353 37.8358 12.5259 37.8358C7.1164 37.8358 2.73114 35.6431 2.73114 32.9384V25.1026M34.0743 7.47208C34.0743 4.76734 29.689 2.57471 24.2796 2.57471C20.4026 2.57471 17.0518 3.70097 15.4643 5.33481M34.0743 7.47208C34.0743 9.28479 32.1046 10.8675 29.1769 11.7143M34.0743 7.47208V24.1231C34.0743 25.5734 32.1046 26.8394 29.1769 27.5168M34.0743 16.2873C34.0743 17.7697 32.0164 19.0597 28.9809 19.7253"
+                                       stroke="#4B6150" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                                 </svg>
+                              </div>
+      
+                              Fair Pay
+                           </h5>
+      
+                           <p>We believe mining and refining are not an easy occupations and therefore we ensure that local
+                              artisanal miners receive fair incentives for their contributions.</p>
+                        </div>
+      
+                        <div class="sec1-contCard box4 c-opacity" data-scroll data-scroll-speed1="1" data-scroll-repeat1>
+                           <h5>
+                              <div class="icon">
+                                 <svg width="43" height="42" viewBox="0 0 43 42" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M29.236 10.6342V9.08698C29.236 6.92071 29.236 5.83756 28.8144 5.01016C28.4436 4.28233 27.8518 3.69061 27.1241 3.31978C26.2967 2.89819 25.2135 2.89819 23.0472 2.89819H19.9528C17.7866 2.89819 16.7034 2.89819 15.876 3.31978C15.1482 3.69061 14.5564 4.28233 14.1856 5.01016C13.764 5.83756 13.764 6.92071 13.764 9.08698V10.6342M11.83 10.6342V37.7101M31.17 10.6342V37.7101M17.632 24.1721C17.632 24.1721 22.3469 24.1721 25.368 24.1721M21.5 20.3042C21.5 23.3252 21.5 25.019 21.5 28.0401M13.3772 37.7101H29.6228C32.8723 37.7101 34.4968 37.7101 35.7381 37.0777C36.8298 36.5215 37.7173 35.634 38.2736 34.5422C38.906 33.301 38.906 31.6764 38.906 28.4269V19.9174C38.906 16.6679 38.906 15.0432 38.2736 13.8021C37.7173 12.7104 36.8298 11.8228 35.7381 11.2666C34.4968 10.6342 32.8723 10.6342 29.6228 10.6342H13.3772C10.1278 10.6342 8.5031 10.6342 7.262 11.2666C6.17028 11.8228 5.28269 12.7104 4.72643 13.8021C4.09406 15.0432 4.09406 16.6679 4.09406 19.9174V28.4269C4.09406 31.6764 4.09406 33.301 4.72643 34.5422C5.28269 35.634 6.17028 36.5215 7.262 37.0777C8.5031 37.7101 10.1278 37.7101 13.3772 37.7101Z"
+                                       stroke="#4B6150" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                                 </svg>
+                              </div>
+      
+                              Healthcare
+                           </h5>
+      
+                           <p>We truly believe health is wealth and therefore we provide medical benefits to our miners and
+                              refiners.</p>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
-         </div>
-      </section>
+         </section>
+      
+         <section class="aboutSection">
+            <div class="container-fluid z-index3" >
+               <div class="aboutSec-main">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="aboutSec-hd mn-hd" data-scroll  data-scroll-speed1="2">
+                           <h5>
+                              <div class="icon">
+                                 <svg width="43" height="46" viewBox="0 0 43 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M28.6141 21.3638L19.1228 11.8725L21.6252 9.37012L35.3883 23.1332L21.6252 36.8962L19.1228 34.3938L28.6141 24.9027H7.07715V21.3638H28.6141Z"
+                                       fill="#FCC78C" />
+                                 </svg>
+            
+                              </div> About SGL
+                           </h5>
+            
+                           <h4>Making bold moves <br> in the gold industry</h4>
+                        </div>
+                     </div>
+   
+                     <div class="col-md-6">
+                        <div class="aboutSec-img text-end">            
+                           <div class="row">
+                              <div class="col-md-6">
+                                 <div class="aboutSec-imgCard nx3" data-scroll  data-scroll-speed1="2">
+                                    <span>2011</span>
+                                    <img src="assets/images/about/3.png" alt="">
+                                 </div>
+                              </div>
+                              
+                              <div class="col-md-6">
+                                 <div class="aboutSec-imgCard nx4" data-scroll  data-scroll-speed1="1">
+                                    <span>2023</span>
+                                    <img src="assets/images/about/4.png" alt="">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+   
+                  <div class="row align-items-center">
+                     <div class="col-md-6">
+                        <div class="row align-items-center">
+                           <div class="col-md-5">
+                              <div class="mn-btn">
+                                 <a href="#">
+                                    Learn More
+               
+                                    <div class="icon">
+                                       <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path
+                                             d="M12.9323 7.40726L7.23308 1.54545L8.73566 0L17 8.50007L8.73566 17L7.23308 15.4546L12.9323 9.59287H0V7.40726H12.9323Z"
+                                             fill="#FCC78C" />
+                                       </svg>
+                                    </div>
+                                 </a>
+                              </div>
+                           </div>
+   
+                           <div class="col-md-7">
+                              <div class="aboutSec-img text-end">
+                                 <!-- <img src="assets/images/land-gold.png" alt="GOLD"  data-scroll  data-scroll-speed1="0.5"> -->
+                  
+                                 <div class="aboutSec-contCard"  data-scroll  data-scroll-speed1="3">
+                                    <div class="">
+                                       <h5>2019</h5>
+                                       <p>Founded SGL to position Tanzania’s gold industry on a global scale and build a robust
+                                          international gold export network.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+   
+                     <div class="col-md-6">
+                        <div class="aboutSec-img text-end">
+                           <div class="row">
+                              <div class="col-md-6">
+                                 <div class="aboutSec-imgCard nx2" data-scroll  data-scroll-speed1="1">
+                                    <span>2019</span>
+                                    <img src="assets/images/about/2.png" alt="">
+                                 </div>
+                              </div>
+   
+                              <div class="col-md-6">
+                                 <div class="aboutSec-imgCard nx1" data-scroll  data-scroll-speed1="3">
+                                    <span>1999</span>
+                                    <img src="assets/images/about/1.png" alt="">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+      
+                  <!-- <div class="aboutSec-img text-end">
+                     <img src="assets/images/land-gold.png" alt="GOLD"  data-scroll  data-scroll-speed1="0.5">
+      
+                     <div class="aboutSec-contCard"  data-scroll  data-scroll-speed1="3">
+                        <div class="">
+                           <h5>2019</h5>
+                           <p>Founded SGL to position Tanzania’s gold industry on a global scale and build a robust
+                              international gold export network.</p>
+                        </div>
+                     </div>
+      
+                     <div class="aboutSec-imgCard nx1" data-scroll  data-scroll-speed1="3">
+                        <span>1999</span>
+                        <img src="assets/images/about/1.png" alt="">
+                     </div>
+      
+                     <div class="aboutSec-imgCard nx2" data-scroll  data-scroll-speed1="1">
+                        <span>2019</span>
+                        <img src="assets/images/about/2.png" alt="">
+                     </div>
+                  </div> -->
+   
+   
+   
+               </div>
+            </div>
+         </section>
+      </section>   
    
       <section class="videoSection" data-scroll-section>
          <div class="vidAfter">
@@ -291,7 +362,7 @@
             </video>
          </div>
          <div class="container-fluid tragitSec3">
-            <div class="videoSec-hd mn-hd"   data-scroll  data-scroll-speed="2">
+            <div class="videoSec-hd mn-hd"   data-scroll  data-scroll-speed1="2">
                <h5>
                   <div class="icon">
                      <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -304,7 +375,7 @@
                </h5>
             </div>
    
-            <div class="videoSec-playBtn vdStart"   data-scroll  data-scroll-speed="2">
+            <div class="videoSec-playBtn vdStart"   data-scroll  data-scroll-speed1="2">
                <a href="#">
                   <div class="">
                      <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -316,7 +387,7 @@
                </a>
             </div>
    
-            <div class="videoSec-cont"   data-scroll  data-scroll-speed="2">
+            <div class="videoSec-cont"   data-scroll  data-scroll-speed1="2">
                <div class="row">
                   <div class="col-md-6">
                      <p>Backed by state-level support and an annual refining capacity of 30 tonnes, SGL Refinery is the
@@ -334,7 +405,7 @@
       <section class="section2" data-scroll-section>
          <div class="container-fluid p-0">
             <div class="sec2-main">
-               <div class="sec2-btn mn-btn text-center c-opacity" data-scroll data-scroll-speed="3" data-scroll-repeat>
+               <div class="sec2-btn mn-btn text-center c-opacity" data-scroll data-scroll-speed1="3" data-scroll-repeat1>
                   <a href="#">
                      Learn More
                      <div class="icon">
@@ -348,18 +419,18 @@
                </div>
    
                <div class="sec2-center">
-                  <img src="assets/images/gold-bus.png" alt="GOLD" class=" c-opacity" data-scroll data-scroll-speed="-3" data-scroll-repeat>
+                  <img src="assets/images/gold-bus.png" alt="GOLD" class=" c-opacity" data-scroll data-scroll-speed1="-3" data-scroll-repeat1>
    
                   <div class="sec2-centCont mn-hd">
-                     <h6 class=" c-opacity" data-scroll data-scroll-speed="2" data-scroll-repeat>Why partner with</h6>
-                     <h4 class=" c-opacity" data-scroll data-scroll-speed="1" data-scroll-repeat>SGL Refinery</h4>
+                     <h6 class=" c-opacity" data-scroll data-scroll-speed1="2" data-scroll-repeat1>Why partner with</h6>
+                     <h4 class=" c-opacity" data-scroll data-scroll-speed1="1" data-scroll-repeat1>SGL Refinery</h4>
                   </div>
                </div>
    
                <div class="sec2-bottom">
                   <div class="sec2-bottomCont">
                      <div class="row align-items-end">
-                        <div class="col-md-4 c-opacity" data-scroll  data-scroll-speed="1" data-scroll-repeat>
+                        <div class="col-md-4 c-opacity" data-scroll  data-scroll-speed1="1" data-scroll-repeat1>
                            <div class="sec2-bottomCard">
                               <div class="sec2-icon">
                                  <span>01</span>
@@ -373,7 +444,7 @@
                            </div>
                         </div>
    
-                        <div class="col-md-4 c-opacity" data-scroll  data-scroll-speed="2" data-scroll-repeat>
+                        <div class="col-md-4 c-opacity" data-scroll  data-scroll-speed1="2" data-scroll-repeat1>
                            <div class="sec2-bottomCard xy2">
                               <div class="sec2-icon">
                                  <span>02</span>
@@ -387,7 +458,7 @@
                            </div>
                         </div>
    
-                        <div class="col-md-4 c-opacity" data-scroll  data-scroll-speed="1" data-scroll-repeat>
+                        <div class="col-md-4 c-opacity" data-scroll  data-scroll-speed1="1" data-scroll-repeat1>
                            <div class="sec2-bottomCard">
                               <div class="sec2-icon">
                                  <span>03</span>
@@ -402,7 +473,7 @@
                         </div>
                      </div>
                   </div>
-                  <img src="assets/images/land-gold2.png" alt="GOLD" class="" data-scroll data-scroll-speed="4" data-scroll-repeat>
+                  <img src="assets/images/land-gold2.png" alt="GOLD" class="" data-scroll data-scroll-speed1="4" data-scroll-repeat1>
                </div>
             </div>
          </div>
@@ -411,7 +482,7 @@
       <section class="mapSection" data-scroll-section>
          <div class="container-fluid">
             <div class="mapSec-hd mn-hd">
-               <h5 class=" c-opacity" data-scroll  data-scroll-speed="1" data-scroll-repeat>
+               <h5 class=" c-opacity" data-scroll  data-scroll-speed1="1" data-scroll-repeat1>
                   <div class="icon">
                      <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -423,10 +494,10 @@
                   Global Export Network
                </h5>
    
-               <h4 class=" c-opacity" data-scroll  data-scroll-speed="1.5" data-scroll-repeat>Exporting pure gold <br> bullion to 5+ gold hub <br> countries</h4>
+               <h4 class=" c-opacity" data-scroll  data-scroll-speed1="1.5" data-scroll-repeat1>Exporting pure gold <br> bullion to 5+ gold hub <br> countries</h4>
             </div>
    
-            <div class="mapSec-map text-center c-opacity" data-scroll  data-scroll-speed="2" data-scroll-repeat>
+            <div class="mapSec-map text-center c-opacity" data-scroll  data-scroll-speed1="2" data-scroll-repeat1>
                <img src="assets/images/map.png" alt="Map">
             </div>
          </div>
@@ -434,7 +505,7 @@
    
       <section class="newsSection" data-scroll-section>
          <div class="container-fluid">
-            <div class="newsSec-hd mn-hd c-opacity" data-scroll  data-scroll-speed="2" data-scroll-repeat>
+            <div class="newsSec-hd mn-hd c-opacity" data-scroll  data-scroll-speed1="2" data-scroll-repeat1>
                <h5>
                   <div class="icon">
                      <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -451,7 +522,7 @@
    
             <div class="newsSec-bottom">
                <div class="row">
-                  <div class="col-md-3 c-opacity" data-scroll  data-scroll-speed="1" data-scroll-repeat>
+                  <div class="col-md-3 c-opacity" data-scroll  data-scroll-speed1="1" data-scroll-repeat1>
                      <div class="newsSec-card">
                         <div class="img">
                            <img src="assets/images/news/1.png" alt="">
@@ -468,7 +539,7 @@
                      </div>
                   </div>
    
-                  <div class="col-md-3 c-opacity" data-scroll  data-scroll-speed="4" data-scroll-repeat>
+                  <div class="col-md-3 c-opacity" data-scroll  data-scroll-speed1="4" data-scroll-repeat1>
                      <div class="newsSec-card">
                         <div class="img">
                            <img src="assets/images/news/1.png" alt="">
@@ -485,7 +556,7 @@
                      </div>
                   </div>
    
-                  <div class="col-md-3 c-opacity" data-scroll  data-scroll-speed="2.5" data-scroll-repeat>
+                  <div class="col-md-3 c-opacity" data-scroll  data-scroll-speed1="2.5" data-scroll-repeat1>
                      <div class="newsSec-card">
                         <div class="img">
                            <img src="assets/images/news/1.png" alt="">
@@ -502,7 +573,7 @@
                      </div>
                   </div>
    
-                  <div class="col-md-3 c-opacity" data-scroll  data-scroll-speed="1.5" data-scroll-repeat>
+                  <div class="col-md-3 c-opacity" data-scroll  data-scroll-speed1="1.5" data-scroll-repeat1>
                      <div class="newsSec-card">
                         <div class="img">
                            <img src="assets/images/news/1.png" alt="">
@@ -521,7 +592,7 @@
                </div>
             </div>
    
-            <div class="newsSec-btn mn-btn text-center c-opacity" data-scroll  data-scroll-speed="1" data-scroll-repeat>
+            <div class="newsSec-btn mn-btn text-center c-opacity" data-scroll  data-scroll-speed1="1" data-scroll-repeat1>
                <a href="#">
                   Read More
                   <div class="icon">
@@ -538,12 +609,12 @@
    
       <section class="contactSection" data-scroll-section>
          <div class="container-fluid">
-            <div class="contactSec-hd mn-hd c-opacity" data-scroll  data-scroll-speed="2" data-scroll-repeat>
+            <div class="contactSec-hd mn-hd c-opacity" data-scroll  data-scroll-speed1="2" data-scroll-repeat1>
                <h4>SAB Gold Limited</h4>
                <p>At SGL, it's more than gold; it's about people.</p>
             </div>
    
-            <div class="contactSec-img c-opacity" data-scroll  data-scroll-speed="1" data-scroll-repeat>
+            <div class="contactSec-img c-opacity" data-scroll  data-scroll-speed1="1" data-scroll-repeat1>
                <img src="assets/images/contact-img.png" alt="">
             </div>
          </div>
@@ -629,16 +700,37 @@
       <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/mediaelement@4.2.16/build/mediaelement-and-player.min.js"></script>
+
+
+      <?php include ("includes/footer.php"); ?>
+      <?php include ("includes/scripts.php"); ?>
    
       <!-- THREE.JS -->
       <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script> -->
    
+      <!-- <script>
+         const video = document.getElementById('myVideo23');
+         
+         // Example: Play video on load
+         window.onload = function() {
+            video.play();
+         };
+         
+         // Example: Control video with JavaScript
+         video.addEventListener('play', function() {
+            console.log('Video is playing');
+         });
+
+         video.addEventListener('pause', function() {
+            console.log('Video is paused');
+         });
+      </script> -->
       
       
-      <?php include ("includes/footer.php"); ?>
-      <?php include ("includes/scripts.php"); ?>
    </div>
 
    

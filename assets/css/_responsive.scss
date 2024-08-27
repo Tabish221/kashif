@@ -1,4 +1,68 @@
-@media (max-width:1440px) {}
+@media (max-width:1440px) {
+    .section2 .sec2-bottomCard {
+        gap: 20px;
+    }
+    .newsSec-card .cont {
+        padding: 30px 25px 25px;
+    }
+    .newsSec-card .cont h6 {
+        font-size: 36px;
+        padding-bottom: 15px;
+    }
+    .newsSection .newsSec-hd {
+        padding: 0 5% 60px;
+    }
+    .mapSection .mapSec-hd {
+        padding: 0 5%;
+    }
+    .videoSection {
+        padding: 100px 2% 110px;
+    }
+    .aboutSection .aboutSec-main {
+        padding-right: 2%;
+        padding-left: 2%;
+        gap: 30px;
+    }
+    .section1 .sec1-bottom {
+        padding-right: 2%;
+        padding-left: 2%;
+        padding-top: 60px;
+    }
+    .section1 .sec1-cont {
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 30px;
+    }
+    .section1 .sec1-hd span {
+        font-size: 280px;
+    }
+    .mn-hd h6 {
+        font-size: 52px;
+    }
+    .mn-hd h5 {
+        gap: 15px;
+        font-size: 36px;
+    }
+    .mn-hd h4 {
+        font-size: 62px;
+    }
+
+    .section1 .sec1-hd h6 {
+        padding-top: 15px;
+    }
+    .section1 .sec1-bottom .col-md-4 {
+        gap: 60px;
+    }
+    .aboutSection .aboutSec-main .aboutSec-hd h5 {
+        padding-bottom: 15px;
+    }
+    .aboutSection .aboutSec-main .aboutSec-contCard p {
+        font-size: 24px;
+        line-height: 1.3;
+        padding-top: 26px;
+    }
+
+}
 
 @media (max-width:1200px) {
     img {

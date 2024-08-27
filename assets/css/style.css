@@ -568,6 +568,11 @@ header .main-header .header-action .header-btn a {
      object-fit: cover;
 }
 
+.container-fluid.tragitSec3 {
+  position: relative;
+  z-index: 2;
+}
+
 /* Main Banner CSS */
 .mainBanner {
   background-size: cover;
@@ -792,7 +797,8 @@ header .main-header .header-action .header-btn a {
 }
 
 .aboutSection {
-  padding-bottom: 290px;
+  padding-bottom: 110px;
+  padding-top: 90px;
 }
 .aboutSection.z-index3 {
   padding-bottom: 360px !important;
@@ -801,46 +807,48 @@ header .main-header .header-action .header-btn a {
 .aboutSection .aboutSec-main {
   padding-right: 5%;
   padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 .aboutSection .aboutSec-main .aboutSec-hd h5 {
   padding-bottom: 25px;
 }
-.aboutSection .aboutSec-main .aboutSec-img {
-  position: relative;
-  height: 600px;
-}
 .aboutSection .aboutSec-main .aboutSec-contCard {
-  position: absolute;
-  width: 500px;
-  height: 430px;
-  left: 0;
-  bottom: 40px;
+  width: 100%;
+  height: auto;
   background: #122312;
-  border-radius: 30px;
+  border-radius: 20px;
   text-align: left;
-  padding: 50px;
+  padding: 30px;
 }
 .aboutSection .aboutSec-main .aboutSec-contCard h5 {
   font-family: "Causten";
   font-weight: 300;
-  font-size: 80px;
+  font-size: 70px;
   line-height: 1.2;
   color: #4B6150;
 }
 .aboutSection .aboutSec-main .aboutSec-contCard p {
   font-weight: 500;
-  font-size: 30px;
+  font-size: 28px;
   line-height: 1.13;
   color: #FFFFFF;
   padding-top: 26px;
 }
 .aboutSection .aboutSec-main .aboutSec-imgCard {
-  position: absolute;
+  position: relative;
   margin: auto;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  width: 100%;
+  height: 100%;
+}
+.aboutSection .aboutSec-main .aboutSec-imgCard img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 .aboutSection .aboutSec-main .aboutSec-imgCard span {
   font-weight: 500;
@@ -850,25 +858,6 @@ header .main-header .header-action .header-btn a {
   position: absolute;
   top: 30px;
   left: 30px;
-}
-.aboutSection .aboutSec-main .aboutSec-imgCard.nx4 {
-  right: 60px;
-  bottom: -120px;
-}
-.aboutSection .aboutSec-main .aboutSec-imgCard.nx3 {
-  right: 60px;
-  top: 10px;
-}
-.aboutSection .aboutSec-main .aboutSec-imgCard.nx2 {
-  top: 0;
-  bottom: 0;
-  right: -500px;
-  left: 0px;
-}
-.aboutSection .aboutSec-main .aboutSec-imgCard.nx1 {
-  bottom: 50px;
-  right: 0;
-  left: -100px;
 }
 
 .videoSection {
@@ -1986,4 +1975,28 @@ footer .footerLink ul li a:hover {
   position: absolute;
   left: 45px;
   bottom: 55px;
+}
+
+#v0 {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover; /* Ensures the video covers the entire viewport */
+}
+
+#set-height {
+  width: 80vw;
+  height: 80vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  z-index: 1;
+}
+
+.z-index3 {
+  position: relative;
+  z-index: 3;
 }/*# sourceMappingURL=style.css.map */
