@@ -15,6 +15,7 @@
 
 <body>
    <div id="set-height">
+   <!-- controls -->
       <video id="v0" width="600" muted loop >
          <source src="assets/video/gold_rock.mp4" type="video/mp4">
          Your browser does not support the video tag.

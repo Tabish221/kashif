@@ -393,6 +393,10 @@ button {
 }
 
 /* header CSS */
+[data-direction=down] header.sticky {
+  top: -120px;
+}
+
 header {
   transition: all 0.4s ease-In-out;
   position: absolute;
@@ -696,7 +700,7 @@ header .main-header .header-action .header-btn a {
 #video-section {
   position: relative;
   z-index: 3;
-  padding-top: 150vh;
+  padding-top: 90px;
 }
 
 .section1 {

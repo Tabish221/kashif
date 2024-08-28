@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 const windowHeight = window.innerHeight;
     
                 const rawPercentScrolled = (scrollTop - (boundRect.top + scrollTop)) / bound.scrollHeight;
-                const percentScrolled = Math.min(Math.max(rawPercentScrolled, 0), 1);
+                let percentScrolled = Math.min(Math.max(rawPercentScrolled, 0), 1);
     
                 // Show video when any part of the section is in the viewport
                 if (boundRect.bottom > 0 && boundRect.top < windowHeight) {
@@ -129,8 +129,18 @@ document.addEventListener("DOMContentLoaded", function () {
                     video.style.display = "none";
                 }
     
+                console.log('Traget 1', percentScrolled)
+                
+                
+                if(percentScrolled > 0 && percentScrolled < 0.120) {
+                    percentScrolled = percentScrolled / 0.2
+                } else if (percentScrolled > 0.120 && percentScrolled < 0.606) {
+                    percentScrolled = 0.606
+                }
+
+                console.log('Traget 2', percentScrolled)
                 // Control video playback
-                video.currentTime = video.duration * percentScrolled;
+                video.currentTime = video.duration * percentScrolled * 0.9;
             }
             requestAnimationFrame(updateVideoPlayback);
         };

@@ -1,4 +1,12 @@
 /* header CSS */
+
+[data-direction="down"] {
+    header {
+        &.sticky {
+            top: -120px;
+        }
+    }
+}
 header {
     -webkit-transition: all 0.4s ease-In-out;
     -moz-transition: all 0.4s ease-In-out;
