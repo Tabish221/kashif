@@ -132,11 +132,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 console.log('Traget 1', percentScrolled)
                 
                 
-                if(percentScrolled > 0 && percentScrolled < 0.120) {
-                    percentScrolled = percentScrolled / 0.2
-                } else if (percentScrolled > 0.120 && percentScrolled < 0.606) {
-                    percentScrolled = 0.606
-                }
+                // if(percentScrolled > 0 && percentScrolled < 0.120) {
+                //     percentScrolled = percentScrolled / 0.2
+                // } else if (percentScrolled > 0.120 && percentScrolled < 0.606) {
+                //     percentScrolled = 0.606
+                // }
 
                 console.log('Traget 2', percentScrolled)
                 // Control video playback

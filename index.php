@@ -94,50 +94,50 @@
             </div>
          </div>
       </section>
-   
-      <section class="section1" data-scroll-section>
-         <div class="container-fluid">
-            <div class="sec1-hd mn-hd" >
-               <h5  class="c-opacity" data-scroll data-scroll-speed1="2" data-scroll-repeat1>
-                  <div class="icon">
-                     <svg width="43" height="46" viewBox="0 0 43 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+      
+      <section id="video-section" class="position-relative"  data-scroll-section>
+         <section class="section1">
+            <div class="container-fluid">
+               <div class="sec1-hd mn-hd" >
+                  <h5  class="c-opacity" data-scroll data-scroll-speed1="2" data-scroll-repeat1>
+                     <div class="icon">
+                        <svg width="43" height="46" viewBox="0 0 43 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path
+                              d="M28.6141 21.3638L19.1228 11.8725L21.6252 9.37012L35.3883 23.1332L21.6252 36.8962L19.1228 34.3938L28.6141 24.9027H7.07715V21.3638H28.6141Z"
+                              fill="#FCC78C" />
+                        </svg>
+      
+                     </div> Empowering Miners
+                  </h5>
+      
+                  <h6 class="c-opacity" data-scroll-repeat1 data-scroll data-scroll-speed1="3" >Empowering local miners <br> since 2019</h6>
+      
+                  <span class="c-opacity c-opacity005" data-scroll data-scroll-speed1="4" data-scroll-repeat1>2019</span>
+               </div>
+      
+               <div class="sec1-img c-opacity" data-scroll-repeat1 data-scroll data-scroll-speed1="4">
+                  <img src="assets/images/sec1-img.png" alt="Img">
+               </div>
+      
+               <div class="sec1-cont start_first_video">
+                  <p class="c-opacity" data-scroll-repeat1 data-scroll  data-scroll-speed1="2">As a value-driven firm, SGL maintains close partnerships with artisanal miners and ensures responsible
+                     mining practices. </p>
+                  <p class="c-opacity" data-scroll-repeat1 data-scroll  data-scroll-speed1="3">This approach fosters a mutually beneficial relationship, benefiting both miners and the regions’s
+                     thriving gold industry.
+                  </p>
+      
+                  <a href="#" class="c-opacity" data-scroll-repeat1 data-scroll  data-scroll-speed1="4">
+                     Learn More
+                     <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
-                           d="M28.6141 21.3638L19.1228 11.8725L21.6252 9.37012L35.3883 23.1332L21.6252 36.8962L19.1228 34.3938L28.6141 24.9027H7.07715V21.3638H28.6141Z"
+                           d="M12.9323 7.4556L7.23308 1.59379L8.73566 0.0483398L17 8.54841L8.73566 17.0483L7.23308 15.5029L12.9323 9.64121H0V7.4556H12.9323Z"
                            fill="#FCC78C" />
                      </svg>
-   
-                  </div> Empowering Miners
-               </h5>
-   
-               <h6 class="c-opacity" data-scroll-repeat1 data-scroll data-scroll-speed1="3" >Empowering local miners <br> since 2019</h6>
-   
-               <span class="c-opacity c-opacity005" data-scroll data-scroll-speed1="4" data-scroll-repeat1>2019</span>
+                  </a>
+               </div>
             </div>
-   
-            <div class="sec1-img c-opacity" data-scroll-repeat1 data-scroll data-scroll-speed1="4">
-               <img src="assets/images/sec1-img.png" alt="Img">
-            </div>
-   
-            <div class="sec1-cont">
-               <p class="c-opacity" data-scroll-repeat1 data-scroll  data-scroll-speed1="2">As a value-driven firm, SGL maintains close partnerships with artisanal miners and ensures responsible
-                  mining practices. </p>
-               <p class="c-opacity" data-scroll-repeat1 data-scroll  data-scroll-speed1="3">This approach fosters a mutually beneficial relationship, benefiting both miners and the regions’s
-                  thriving gold industry.
-               </p>
-   
-               <a href="#" class="c-opacity" data-scroll-repeat1 data-scroll  data-scroll-speed1="4">
-                  Learn More
-                  <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                     <path
-                        d="M12.9323 7.4556L7.23308 1.59379L8.73566 0.0483398L17 8.54841L8.73566 17.0483L7.23308 15.5029L12.9323 9.64121H0V7.4556H12.9323Z"
-                        fill="#FCC78C" />
-                  </svg>
-               </a>
-            </div>
-         </div>
-      </section>
+         </section>
 
-      <section id="video-section" class="position-relative"  data-scroll-section>
          <section class="section1 v2">   
             <div class="container-fluid z-index3">
                <div class="sec1-bottom">
