@@ -8,22 +8,19 @@
    <meta name="description" content="">
    <title>SGL</title>
    <?php include ("includes/style.php"); ?>
-
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.16/build/mediaelementplayer.min.css">
-
 </head>
 
 <body>
    <div id="set-height">
    <!-- controls -->
-      <video id="v0" width="600" muted loop >
+      <video id="v0" width="600" muted loop  preload="auto">
          <source src="assets/video/gold_rock.mp4" type="video/mp4">
          Your browser does not support the video tag.
       </video>
    </div>
 
    <div id="set-height2">
-      <video id="v1" width="600" muted loop >
+      <video id="v1" width="600" muted loop  preload="auto">
          <source src="assets/video/gold_bar.mp4" type="video/mp4">
          Your browser does not support the video tag.
       </video>
@@ -438,7 +435,7 @@
                <div class="sec2-bottom">
                   <div class="sec2-bottomCont">
                      <div class="row align-items-end">
-                        <div class="col-md-4 c-opacity" data-scroll  data-scroll-speed1="1" data-scroll-repeat1>
+                        <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
                            <div class="sec2-bottomCard">
                               <div class="sec2-icon">
                                  <span>01</span>
@@ -452,7 +449,7 @@
                            </div>
                         </div>
    
-                        <div class="col-md-4 c-opacity" data-scroll  data-scroll-speed1="2" data-scroll-repeat1>
+                        <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
                            <div class="sec2-bottomCard xy2">
                               <div class="sec2-icon">
                                  <span>02</span>
@@ -466,7 +463,7 @@
                            </div>
                         </div>
    
-                        <div class="col-md-4 c-opacity" data-scroll  data-scroll-speed1="1" data-scroll-repeat1>
+                        <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
                            <div class="sec2-bottomCard">
                               <div class="sec2-icon">
                                  <span>03</span>
@@ -700,16 +697,14 @@
          </div>
       </section>
 
-      <script nomodule src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.6.0/polyfill.min.js" crossorigin="anonymous"></script>
-      <script nomodule src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=Object.assign%2CElement.prototype.append%2CNodeList.prototype.forEach%2CCustomEvent%2Csmoothscroll" crossorigin="anonymous"></script>
+      <!-- <script nomodule src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.6.0/polyfill.min.js" crossorigin="anonymous"></script>
+      <script nomodule src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=Object.assign%2CElement.prototype.append%2CNodeList.prototype.forEach%2CCustomEvent%2Csmoothscroll" crossorigin="anonymous"></script> -->
 
    
       <!-- GSAP & LOCOMOTIVE -->
-      <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+      <!-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
-
-      <script src="https://cdn.jsdelivr.net/npm/mediaelement@4.2.16/build/mediaelement-and-player.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script> -->
 
 
       <?php include ("includes/footer.php"); ?>
