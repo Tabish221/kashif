@@ -47,7 +47,7 @@ body {
   font-size: 16px;
   line-height: 1;
   color: #000000;
-  background: linear-gradient(178.69deg, #04140A 8.67%, #161C0F 99.87%);
+  background: #161C0F;
 }
 
 h1,
@@ -697,14 +697,14 @@ header .main-header .header-action .header-btn a {
   padding-top: 50px;
 }
 
-#video-section {
+#video-section, #video-section2 {
   position: relative;
   z-index: 3;
   padding-top: 90px;
 }
 
 .section1 {
-  background: linear-gradient(178.69deg, #04140A 8.67%, #161C0F 99.87%);
+  background: #161C0F;
   padding: 90px 0 50px;
   position: relative;
   z-index: 3;
@@ -1010,7 +1010,7 @@ header .main-header .header-action .header-btn a {
   padding: 135px 0 0;
   position: relative;
   z-index: 3;
-  background-color: #04140A;
+  background-color: #161C0F;
 }
 .mapSection .mapSec-hd {
   padding: 0 12%;
@@ -1022,7 +1022,7 @@ header .main-header .header-action .header-btn a {
 .newsSection {
   position: relative;
   z-index: 3;
-  background-color: #04140A;
+  background-color: #161C0F;
 }
 .newsSection .newsSec-hd {
   padding: 0 12% 80px;
@@ -1078,7 +1078,7 @@ header .main-header .header-action .header-btn a {
   padding: 100px 0 0;
   position: relative;
   z-index: 3;
-  background-color: #04140A;
+  background-color: #161C0F;
 }
 .contactSection .contactSec-hd {
   padding: 0 5% 145px;
@@ -1155,7 +1155,7 @@ footer {
   padding: 150px 0 270px;
   position: relative;
   z-index: 3;
-  background-color: #04140A;
+  background-color: #161C0F;
 }
 footer .footerBackBtn {
   padding-bottom: 120px;
@@ -1251,7 +1251,7 @@ footer .footerLink ul li a:hover {
   padding: 50px 0;
   position: relative;
   z-index: 3;
-  background-color: #04140A;
+  background-color: #161C0F;
 }
 .copyright p {
   font-weight: 500;

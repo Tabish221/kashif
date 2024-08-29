@@ -128,19 +128,60 @@ document.addEventListener("DOMContentLoaded", function () {
                 } else {
                     video.style.display = "none";
                 }
+
+                // Control video playback
+                video.currentTime = video.duration * percentScrolled;
+            }
+            requestAnimationFrame(updateVideoPlayback);
+        };
+    
+        // Initial call and attach scroll event listener
+        requestAnimationFrame(updateVideoPlayback);
+    };
+
+    const registerVideo2 = (boundSelector, videoSelector) => {
+        const bound = document.querySelector(boundSelector);
+        const video = document.querySelector(videoSelector);
+    
+        if (!bound || !video) {
+            console.error("The bound element or video element is missing from the DOM.");
+            return;
+        }
+    
+        const updateVideoPlayback = () => {
+            // console.clear();
+            if (video.duration) {
+                const scrollTop = locoScroll.scroll.instance.scroll.y;
+                const boundRect = bound.getBoundingClientRect();
+                const windowHeight = window.innerHeight;
+    
+                const rawPercentScrolled = (scrollTop - (boundRect.top + scrollTop)) / bound.scrollHeight;
+                let percentScrolled = Math.min(Math.max(rawPercentScrolled, 0), 1);
+    
+                // Show video when any part of the section is in the viewport
+                if (boundRect.bottom > 0 && boundRect.top < windowHeight) {
+                    video.style.display = "block";
+                } else {
+                    video.style.display = "none";
+                }
     
                 console.log('Traget 1', percentScrolled)
                 
                 
-                // if(percentScrolled > 0 && percentScrolled < 0.120) {
-                //     percentScrolled = percentScrolled / 0.2
-                // } else if (percentScrolled > 0.120 && percentScrolled < 0.606) {
-                //     percentScrolled = 0.606
-                // }
+                if(percentScrolled > 0 && percentScrolled < 0.13) {
+                    percentScrolled = percentScrolled / 0.2
+                } 
+                else if (percentScrolled > 0.13 && percentScrolled < 0.880) {
+                    percentScrolled = percentScrolled + 0.521
+
+                    if(percentScrolled > 0.85) {
+                        percentScrolled = 0.85
+                    }
+                }
 
                 console.log('Traget 2', percentScrolled)
                 // Control video playback
-                video.currentTime = video.duration * percentScrolled * 0.9;
+                video.currentTime = video.duration * percentScrolled;
             }
             requestAnimationFrame(updateVideoPlayback);
         };
@@ -151,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     // Example usage
     registerVideo('#video-section', '#v0');
-    registerVideo('.section2', '#v1');
+    registerVideo2('.section2', '#v1');
 
     
     // Update Locomotive Scroll and ScrollTrigger on window resize

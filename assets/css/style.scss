@@ -164,7 +164,7 @@
     }
 }
 
-#video-section {
+#video-section, #video-section2 {
     position: relative;
     z-index: 3;
     padding-top: 90px;
@@ -172,7 +172,7 @@
 }
 
 .section1 {
-    background: linear-gradient(178.69deg, #04140A 8.67%, #161C0F 99.87%);
+    background: #161C0F;
     padding: 90px 0 50px;
     position: relative;
     z-index: 3;
@@ -555,7 +555,7 @@
     padding: 135px 0 0;
     position: relative;
     z-index: 3;
-    background-color: #04140A;
+    background-color: #161C0F;
 
     .mapSec-hd {
         padding: 0 12%;
@@ -569,7 +569,7 @@
 .newsSection {
     position: relative;
     z-index: 3;
-    background-color: #04140A;
+    background-color: #161C0F;
 
     .newsSec-hd {
         padding: 0 12% 80px;
@@ -633,7 +633,7 @@
     padding: 100px 0 0;
     position: relative;
     z-index: 3;
-    background-color: #04140A;
+    background-color: #161C0F;
 
     .contactSec-hd {
         padding: 0 5% 145px;
@@ -727,7 +727,7 @@ footer {
     padding: 150px 0 270px;
     position: relative;
     z-index: 3;
-    background-color: #04140A;
+    background-color: #161C0F;
 
     .footerBackBtn {
         padding-bottom: 120px;
@@ -842,7 +842,7 @@ footer {
     padding: 50px 0;
     position: relative;
     z-index: 3;
-    background-color: #04140A;
+    background-color: #161C0F;
 
     p {
         font-weight: 500;
