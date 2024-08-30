@@ -1,7 +1,7 @@
-<footer data-scroll-section>
+<footer>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-4 wow fadeInDown" data-wow-delay="0.3s">
 				<div class="footerBackBtn">
 					<a href="#backToTop">
 						<div class="icon">
@@ -21,7 +21,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-md-8">
+			<div class="col-md-8 wow fadeInDown" data-wow-delay="0.6s">
 				<div class="widget">
 					<div class="getTouch-footerForm">
 						<label for="">Get updates on the latest industry trends.</label>
@@ -54,7 +54,7 @@
 	</div>
 </footer>
 
-<section class="copyright" data-scroll-section>
+<section class="copyright wow fadeInUp" data-wow-delay="0.3s">
 	<div class="container-fluid">
 		<div class="row align-items-end">
 			<div class="col-md-6">
