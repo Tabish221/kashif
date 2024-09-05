@@ -6,6 +6,12 @@ $(document).ready(function () {
         $(this).toggleClass('open');
         $('.menuWrap').toggleClass('open');
         $('body').toggleClass('ovr-hiddn');
+
+        if($(".menuWrap").hasClass('open')) {
+            $(this).parent().find('.headerMore').text('Closed')
+        }else {
+            $(this).parent().find('.headerMore').text('More')
+        }
     });
 
     $('.closePop,.overlay').click(function () {

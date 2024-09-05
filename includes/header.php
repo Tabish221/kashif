@@ -9,7 +9,7 @@
 							<span></span>
 							<span></span>
 						</div>
-						<span>MORE</span>
+						<span class="headerMore">MORE</span>
 					</div>
 				</div>
 				<div class="col-md-8">

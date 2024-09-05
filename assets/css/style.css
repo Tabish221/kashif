@@ -417,6 +417,8 @@ header .main-header .side-menuBar {
   display: flex;
   align-items: center;
   gap: 10px;
+  position: relative;
+  z-index: 9;
 }
 header .main-header .side-menuBar span {
   font-family: "Roboto";
@@ -2625,6 +2627,9 @@ footer .footerLink ul li a:hover {
     display: flex;
     left: 0px;
   }
+  .menu-Bar.open {
+    top: -6px;
+  }
   .menuWrap {
     position: fixed;
     left: -210%;
@@ -2632,7 +2637,7 @@ footer .footerLink ul li a:hover {
     top: 0;
     bottom: 0;
     margin: auto;
-    background: #ff8000;
+    background: #161C0F;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -2676,5 +2681,62 @@ footer .footerLink ul li a:hover {
   }
   header .main-header ul.menu > li a:before {
     display: none;
+  }
+  header {
+    padding: 20px 0 0;
+  }
+  header .main-header .menuWrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0px;
+    padding: 70px 50px 40px 30px;
+  }
+  header .main-header .side-menuBar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 6px;
+    position: relative;
+    z-index: 9;
+  }
+  header .main-header .header-action {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    flex-direction: row-reverse;
+  }
+  header .main-header .menuWrap .logo {
+    display: inline-block;
+    flex: 0 0 0;
+    position: absolute;
+    top: 15px;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 70px;
+    height: 26px;
+  }
+  header .main-header .menuWrap .menu {
+    gap: 0px;
+    flex-direction: column;
+  }
+  header .main-header .menuWrap .menu li {
+    padding-bottom: 15px;
+  }
+  header .main-header .menuWrap .menu li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 0;
+    text-align: left;
   }
 }/*# sourceMappingURL=style.css.map */
