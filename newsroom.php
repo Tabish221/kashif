@@ -42,7 +42,7 @@
             <div class="row">
                <div class="col-md-3">
                   <div class="newsSec1-left">
-                     <h6>Navigation</h6>
+                     <!-- <h6>Navigation</h6> -->
 
                      <ul>
                         <li class="active"><a href="#">Gold Mines</a></li>
@@ -57,7 +57,7 @@
                <div class="col-md-9">
                   <div class="newsSec1-right">
                      <div class="newsSec1-righHd mn-hd">
-                        <h4>Latest News</h4>
+                        <h4>What’s Happening at SGL</h4>
                      </div>
 
                      <div class="newsSec1-card1 newsSec-card">

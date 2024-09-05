@@ -74,6 +74,18 @@ $('.aboutSec-slider').slick({
     autoplaySpeed: 2000,
 });
 
+// testi-slider
+$('.testi-slider').slick({
+    dots: false,
+    arrows: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true, 
+    autoplaySpeed: 4000,
+});
+
 // historySec-slider
 
 $('.historySec-slider').slick({

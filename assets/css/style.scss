@@ -1414,6 +1414,21 @@ footer {
 }
 
 .missionSec-card {
+    &.vx2 {
+        .icon {
+            span {
+                background-color: rgb(255, 220, 136) !important;
+                color: #080e0a;
+                font-size: 29px;
+                font-weight: 700;
+            }
+        }
+        .cont {
+            h4 {
+                font-size: 40px !important;
+            }
+        }
+    }
     .icon {
         padding-bottom: 60px;
 

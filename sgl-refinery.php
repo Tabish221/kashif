@@ -16,11 +16,9 @@
          <div class="row">
             <div class="col-md-6">
                <div class="innerBanner-cont mn-hd">
-                  <h5>Unrivaled Excellence in</h5>
+                  <!-- <h5>Unrivaled Excellence in</h5> -->
                   <h4>SGL Refinery</h4>
-                  <p>In early 1995, the team that later founded Q Industrial began working with first clients in public
-                     and commercial transport. Within two years, capabilities were expanded to include railway
-                     transportation. Gradually, we covered the general industrial sector.</p>
+                  <p>Located in Kahama, Tanzania, SGL Refinery is a testament to our vision of elevating the Tanzania’s gold industry.</p>
                </div>
             </div>
          </div>
@@ -38,10 +36,8 @@
                      </div>
 
                      <div class="cont">
-                        <h6>Business</h6>
-                        <p>At <b> Sab Gold Limited</b>, Our Mission Is To Contribute To The Growth And Prosperity Of <b>
-                              Tanzania’s Mining Sector</b>. We Strive To Provide Top-Notch Products And Services While
-                           Maintaining Ethical <b> Standards And Environmental Responsibility</b>.</p>
+                        <h6>995.0 1KG Bars</h6>
+                        <p>SGL refines mined gold into 1 kilogram bars with 995.0 fineness for our wholesale clients. We also offer export services to your destination country.</p>
                      </div>
                   </div>
                </div>
@@ -53,10 +49,8 @@
                      </div>
 
                      <div class="cont">
-                        <h6>Enterprise</h6>
-                        <p>At <b> Sab Gold Limited</b>, Our Mission Is To Contribute To The Growth And Prosperity Of <b>
-                              Tanzania’s Mining Sector</b>. We Strive To Provide Top-Notch Products And Services While
-                           Maintaining Ethical <b> Standards And Environmental Responsibility</b>.</p>
+                        <h6>Custom Refining</h6>
+                        <p>We are open to custom refining for clients with specific requirements. Reach out to us at info@sabgold.com and we will schedule a meeting with you.</p>
                      </div>
                   </div>
                </div>
@@ -83,9 +77,17 @@
          </div>
 
          <div class="slgSec1-bottom">
-            <h6>"Reputation is like a diamond, its creation requires meticulousness and patience to give it all its
-               prestige, the slightest scratch and it loses all its value."</h6>
-            <span>Mahmoud Kassem Shakarchi — Founder of MKS PAMP</span>
+            <div class="testi-slider">
+               <div class="">
+                  <h6>“If you need quality gold refining, SGL Refinery is the place for you. We have processed over a tonne of gold and plan to continue working with SGL.”</h6>
+                  <span>Mahmoud Kassem Shakarchi — Founder of MKS PAMP</span>
+               </div>
+
+               <div class="">
+                  <h6>“If you need quality gold refining, SGL Refinery is the place for you. We have processed over a tonne of gold and plan to continue working with SGL.”</h6>
+                  <span>Mahmoud Kassem Shakarchi — Founder of MKS PAMP</span>
+               </div>
+            </div>
          </div>
       </div>
    </section>
@@ -494,8 +496,13 @@
    </section>
 
    <section class="videoSection">
-      <div class="container-fluid">
-         <div class="videoSec-hd mn-hd">
+      <div class="vidAfter">
+         <video muted loop id="secVid">
+            <source src="assets/video/refiningvideo.mp4"  type="video/mp4">
+         </video>
+      </div>
+      <div class="container-fluid tragitSec3">
+         <div class="videoSec-hd mn-hd wow fadeInLeft" data-wow-delay="0.2s">
             <h5>
                <div class="icon">
                   <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -508,7 +515,7 @@
             </h5>
          </div>
 
-         <div class="videoSec-playBtn">
+         <div class="videoSec-playBtn vdStart wow zoomIn" data-wow-delay="0.3s">
             <a href="#">
                <div class="">
                   <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -522,12 +529,12 @@
 
          <div class="videoSec-cont">
             <div class="row">
-               <div class="col-md-6">
+               <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.4s">
                   <p>Backed by state-level support and an annual refining capacity of 30 tonnes, SGL Refinery is the
                      right gold refining partner for you.</p>
                </div>
 
-               <div class="col-md-6">
+               <div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s">
                   <h4>Join us in shaping a prosperous future.</h4>
                </div>
             </div>

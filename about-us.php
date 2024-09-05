@@ -16,11 +16,9 @@
          <div class="row">
             <div class="col-md-6">
                <div class="innerBanner-cont mn-hd">
-                  <h5>Unrivaled Excellence in</h5>
+                  <!-- <h5>Unrivaled Excellence in</h5> -->
                   <h4>About Us</h4>
-                  <p>In early 1995, the team that later founded Q Industrial began working with first clients in public
-                     and commercial transport. Within two years, capabilities were expanded to include railway
-                     transportation. Gradually, we covered the general industrial sector.</p>
+                  <p>Founded in 2019, SGL started exporting fine gold bullion from Tanzania. Within 3 years, SGL has formed strong collaborations with local miners, governments and international buyers. The firm is on a mission to position Tanzania as a key player in the global gold supply chain and ensuring the well-being of local mining communities.</p>
                </div>
             </div>
          </div>
@@ -38,16 +36,13 @@
                         fill="#FCC78C" />
                   </svg>
                </div>
-               About Us
+               About SGL
             </h5>
-            <h4>Our founder, Mahmoud <br> Kassem Shakarchi</h4>
+            <h4>A word from our COO, <br> Mr Naasirhussein</h4>
          </div>
 
          <div class="aboutSec1-cont px-12">
-            <p>Since its inception, the PAMP brand was quickly established as an industry leader with transparency and
-               sustainability integrated into its business strategy and throughout all endeavors.</p>
-            <p>Mahmoud Kassem Shakarchi instantly saw the vast potential, craftsmanship and ingenuity of PAMP which he
-               empowered across the world, making it the most sought after and leading bullion brand.</p>
+            <p>“We believe in a world where African artisanal miners get the value they deserve for their contributions to the precious metal industry. And that’s why at SGL, we truly care about the wellbeing of our miners and their families. Through fair economics and access to education & healthcare, we want to empower the next generation of miners.”</p>
          </div>
 
          <div class="aboutSec1-bottom px-5">
@@ -291,7 +286,142 @@
       </div>
    </section>
 
-   <section class="milestoneSection">
+   <section class="aboutSection">
+         <div class="container-fluid z-index3" >
+            <div class="aboutSec-main">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="aboutSec-hd mn-hd wow fadeInLeft" data-wow-delay="0.4s">
+                        <h5>
+                           <div class="icon">
+                              <svg width="43" height="46" viewBox="0 0 43 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M28.6141 21.3638L19.1228 11.8725L21.6252 9.37012L35.3883 23.1332L21.6252 36.8962L19.1228 34.3938L28.6141 24.9027H7.07715V21.3638H28.6141Z"
+                                    fill="#FCC78C" />
+                              </svg>
+         
+                           </div> About SGL
+                        </h5>
+         
+                        <h4>Making bold moves <br> in the gold industry</h4>
+                     </div>
+                  </div>
+
+                  <div class="col-md-6">
+                     <div class="aboutSec-img text-end">            
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="aboutSec-imgCard nx3 wow fadeInDown" data-wow-delay="0.6s">
+                                 <span>2019</span>
+                                 <img src="assets/images/about/3.png" alt="">
+                              </div>
+                           </div>
+                           
+                           <div class="col-md-6">
+                              <div class="aboutSec-imgCard nx4 wow fadeInDown" data-wow-delay="0.8s">
+                                 <span>2023</span>
+                                 <img src="assets/images/about/4.png" alt="">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="row align-items-center">
+                  <div class="col-md-6">
+                     <div class="row align-items-center">
+                        <div class="col-md-5">
+                           <div class="mn-btn wow fadeInLeft" data-wow-delay="0.2s">
+                              <a href="#">
+                                 Learn More
+            
+                                 <div class="icon">
+                                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path
+                                          d="M12.9323 7.40726L7.23308 1.54545L8.73566 0L17 8.50007L8.73566 17L7.23308 15.4546L12.9323 9.59287H0V7.40726H12.9323Z"
+                                          fill="#FCC78C" />
+                                    </svg>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+
+                        <div class="col-md-7">
+                           <div class="aboutSec-slider">
+                              <div class="">
+                                 <div class="aboutSec-img text-end wow fadeInDown" data-wow-delay="0.3s">
+                                    <div class="aboutSec-contCard"  data-scroll  data-scroll-speed1="3">
+                                       <div class="">
+                                          <h5>2019</h5>
+                                          <p>Founded SGL to position Tanzania’s gold industry on a global scale and build a robust international gold export network.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="">
+                                 <div class="aboutSec-img text-end wow fadeInDown" data-wow-delay="0.3s">
+                                    <div class="aboutSec-contCard"  data-scroll  data-scroll-speed1="3">
+                                       <div class="">
+                                          <h5>2023</h5>
+                                          <p>Exported over 100 tonnes of Tanzanian gold bullion to investors and jewellery makers around the world.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="">
+                                 <div class="aboutSec-img text-end wow fadeInDown" data-wow-delay="0.3s">
+                                    <div class="aboutSec-contCard"  data-scroll  data-scroll-speed1="3">
+                                       <div class="">
+                                          <h5>2024</h5>
+                                          <p>Launched a licensed gold refinery to support Tanzanian artisanal miners and elevate the standards of locally mined and refined gold.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="">
+                                 <div class="aboutSec-img text-end wow fadeInDown" data-wow-delay="0.3s">
+                                    <div class="aboutSec-contCard"  data-scroll  data-scroll-speed1="3">
+                                       <div class="">
+                                          <h5>2025</h5>
+                                          <p>More great milestones to achieve…</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-md-6">
+                     <div class="aboutSec-img text-end">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="aboutSec-imgCard nx2 wow fadeInDown" data-wow-delay="0.4s">
+                                 <span>2023</span>
+                                 <img src="assets/images/about/2.png" alt="">
+                              </div>
+                           </div>
+
+                           <div class="col-md-6">
+                              <div class="aboutSec-imgCard nx1 wow fadeInDown" data-wow-delay="0.6s">
+                                 <span>2025</span>
+                                 <img src="assets/images/about/1.png" alt="">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+   <!-- <section class="milestoneSection">
       <div class="container-fluid">
          <div class="milestoneSec-main px-10">
             <div class="row row-gap-35">
@@ -362,7 +492,7 @@
             </div>
          </div>
       </div>
-   </section>
+   </section> -->
 
    <section class="aboutSection2">
       <div class="container-fluid">

@@ -1720,6 +1720,15 @@ footer .footerLink ul li a:hover {
   padding-top: 45px;
 }
 
+.missionSec-card.vx2 .icon span {
+  background-color: rgb(255, 220, 136) !important;
+  color: #080e0a;
+  font-size: 29px;
+  font-weight: 700;
+}
+.missionSec-card.vx2 .cont h4 {
+  font-size: 40px !important;
+}
 .missionSec-card .icon {
   padding-bottom: 60px;
 }

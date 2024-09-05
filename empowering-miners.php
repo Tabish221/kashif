@@ -14,10 +14,10 @@
    <section class="innerBanner" style="background-image: url(assets/images/banner/empowering-miners.jpg);">
       <div class="container-fluid">
          <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-8">
                <div class="innerBanner-cont mn-hd">
-                  <h5>Unrivaled Excellence in</h5>
                   <h4>Empowering Miners</h4>
+                  <p>SGL envisions a world where local artisanal miners receive favourable working conditions for their priceless contribution to the gold industry. Every day, we work with miners and help them solve challenges to improve their working conditions.</p>
                </div>
             </div>
          </div>
@@ -524,31 +524,14 @@
             <div class="missionSec-main">
                <div class="row row-gap-75">
                   <div class="col-md-3">
-                     <div class="missionSec-card mn-hd">
+                     <div class="missionSec-card mn-hd vx2">
                         <div class="icon">
-                           <span>
-                              <svg width="35" height="36" viewBox="0 0 35 36" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <g clip-path="url(#clip0_94_638)">
-                                    <path d="M0 17.8037L17.5 0.303711V25.7394L0 17.8037Z" fill="#DEB972" />
-                                    <path d="M17.5 0.303711L35 17.8037L17.5 25.7394V0.303711Z" fill="#FFF7B3" />
-                                    <path d="M17.5 25.7394L35 17.8037L17.5 35.3037V25.7394Z" fill="#DEB972" />
-                                    <path d="M28.5573 20.7253L17.5 31.7826V35.3037L35 17.8037L28.5573 20.7253Z"
-                                       fill="#FFF7B3" />
-                                    <path d="M0 17.8037L17.5 25.7394V35.3037L0 17.8037Z" fill="#FFFDC7" />
-                                 </g>
-                                 <defs>
-                                    <clipPath id="clip0_94_638">
-                                       <rect width="35" height="35" fill="white" transform="translate(0 0.303711)" />
-                                    </clipPath>
-                                 </defs>
-                              </svg>
-                           </span>
+                           <span>01</span>
                         </div>
 
                         <div class="cont">
-                           <h4>Integrity</h4>
-                           <p>We foster strong partnerships with suppliers, clients, and stakeholders</p>
+                           <h4>Reach out</h4>
+                           <p>Get in touch with our Miner Relationship Manager via +255 XXX XXXX.</p>
 
                            <div class="mn-link fs19">
                               <a href="#">
@@ -568,54 +551,14 @@
                   </div>
 
                   <div class="col-md-3">
-                     <div class="missionSec-card mn-hd">
+                     <div class="missionSec-card mn-hd vx2">
                         <div class="icon">
-                           <span>
-                              <svg width="36" height="37" viewBox="0 0 36 37" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <g clip-path="url(#clip0_94_650)">
-                                    <path
-                                       d="M17.7233 6.53418L6.68896 14.7936L10.9037 28.1577H24.5429L28.7577 14.7936L17.7233 6.53418Z"
-                                       fill="#FFDC88" />
-                                    <path
-                                       d="M17.7233 36.3037L28.091 33.1922L24.5429 28.1577H10.9036L7.35547 33.1922L17.7233 36.3037Z"
-                                       fill="#15AA78" />
-                                    <path
-                                       d="M17.7233 36.3037L28.091 33.1922L24.5429 28.1577H10.9036L7.35547 33.1922L17.7233 36.3037Z"
-                                       fill="#DEB972" />
-                                    <path
-                                       d="M17.7233 34.1878L7.35547 33.1922L17.7233 36.3037L28.091 33.1922L17.7233 34.1878Z"
-                                       fill="#C0A36C" />
-                                    <path
-                                       d="M7.55827 4.07041L0.945801 12.866L6.68867 14.7904L17.723 6.53093L17.7212 0.309326L7.55827 4.07041Z"
-                                       fill="#FFF7B3" />
-                                    <path
-                                       d="M27.8878 4.0648L34.5003 12.8605L28.7575 14.7849L17.7231 6.52538L17.7249 0.303711L27.8878 4.0648Z"
-                                       fill="#DEB972" />
-                                    <path
-                                       d="M34.1746 23.9897L28.093 33.1831L24.5449 28.1485L28.7675 14.7871L34.5126 12.8698L34.1746 23.9897Z"
-                                       fill="#FFF7B3" />
-                                    <path
-                                       d="M34.5128 12.8698L32.0648 23.3886L28.0933 33.1831L34.1749 23.9897L34.5128 12.8698Z"
-                                       fill="#C0A36C" />
-                                    <path
-                                       d="M1.28133 23.9926L7.36292 33.1859L10.911 28.1514L6.68849 14.7899L0.943359 12.8727L1.28133 23.9926Z"
-                                       fill="#DEB972" />
-                                 </g>
-                                 <defs>
-                                    <clipPath id="clip0_94_650">
-                                       <rect width="35" height="36" fill="white"
-                                          transform="translate(0.228027 0.303711)" />
-                                    </clipPath>
-                                 </defs>
-                              </svg>
-
-                           </span>
+                           <span>02</span>
                         </div>
 
                         <div class="cont">
-                           <h4>Quality</h4>
-                           <p>We foster strong partnerships with suppliers, clients, and stakeholders</p>
+                           <h4>Interview</h4>
+                           <p>Our Miner Relationship Manager will conduct an interview with you to get to know you better.</p>
 
                            <div class="mn-link fs19">
                               <a href="#">
@@ -635,42 +578,14 @@
                   </div>
 
                   <div class="col-md-3">
-                     <div class="missionSec-card mn-hd">
+                     <div class="missionSec-card mn-hd vx2">
                         <div class="icon">
-                           <span>
-                              <svg width="37" height="36" viewBox="0 0 37 36" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <g clip-path="url(#clip0_94_666)">
-                                    <path
-                                       d="M18.2285 0.303711L23.7908 6.18945L36.2285 7.13329L27.2285 11.7147L29.3531 18.1837L18.2285 15.1294L7.10388 18.1837L9.22852 11.7147L0.228516 7.13329L12.6662 6.18945L18.2285 0.303711Z"
-                                       fill="#FFDC88" />
-                                    <path d="M7.10352 35.3037V18.1837L18.2281 15.1294V32.2494L7.10352 35.3037Z"
-                                       fill="#FFF7B3" />
-                                    <path d="M29.3531 18.1837V35.3037L18.2285 32.2494V15.1294L29.3531 18.1837Z"
-                                       fill="#DEB972" />
-                                    <path
-                                       d="M29.3531 27.7532L36.2285 24.2533V7.1333L27.2285 11.7147L29.3531 18.1837V27.7532Z"
-                                       fill="#FFF7B3" />
-                                    <path d="M32.6064 8.97689V26.0969L36.2282 24.2533V7.13324L32.6064 8.97689Z"
-                                       fill="#C0A36C" />
-                                    <path
-                                       d="M0.228516 7.1333V24.2533L7.10388 27.7532V18.1837L9.22852 11.7147L0.228516 7.1333Z"
-                                       fill="#DEB972" />
-                                 </g>
-                                 <defs>
-                                    <clipPath id="clip0_94_666">
-                                       <rect width="36" height="35" fill="white"
-                                          transform="translate(0.228516 0.303711)" />
-                                    </clipPath>
-                                 </defs>
-                              </svg>
-
-                           </span>
+                           <span>03</span>
                         </div>
 
                         <div class="cont">
-                           <h4>Innovation</h4>
-                           <p>We foster strong partnerships with suppliers, clients, and stakeholders</p>
+                           <h4>Onboarding</h4>
+                           <p>Once you are approved, you will sign a contract and go through our onboarding program.</p>
 
                            <div class="mn-link fs19">
                               <a href="#">
@@ -690,42 +605,14 @@
                   </div>
 
                   <div class="col-md-3">
-                     <div class="missionSec-card mn-hd">
+                     <div class="missionSec-card mn-hd vx2">
                         <div class="icon">
-                           <span>
-                              <svg width="38" height="38" viewBox="0 0 38 38" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <g clip-path="url(#clip0_94_679)">
-                                    <path
-                                       d="M37.2275 18.8037L18.728 0.303711L0.227539 18.8037L18.728 10.328L37.2275 18.8037Z"
-                                       fill="#FFDC88" />
-                                    <path
-                                       d="M0.227539 18.8037L18.7271 37.3037L37.2275 18.8037L18.7271 27.2794L0.227539 18.8037Z"
-                                       fill="#C0A36C" />
-                                    <path d="M18.7275 27.2794V37.3037L37.228 18.8037L18.7275 27.2794Z" fill="#DEB972" />
-                                    <path d="M30.3584 21.9509L18.7275 37.3037L37.228 18.8037L30.3584 21.9509Z"
-                                       fill="#C0A36C" />
-                                    <path d="M30.3085 15.6565L18.6777 0.303711L37.1781 18.8037L30.3085 15.6565Z"
-                                       fill="#DEB972" />
-                                    <path d="M18.728 10.328V0.303711L0.227539 18.8037L18.728 10.328Z" fill="#DEB972" />
-                                    <path
-                                       d="M18.728 10.3281L0.227539 18.8037L18.7271 27.2794L37.2275 18.8037L18.728 10.3281Z"
-                                       fill="#FFF7B3" />
-                                 </g>
-                                 <defs>
-                                    <clipPath id="clip0_94_679">
-                                       <rect width="37" height="37" fill="white"
-                                          transform="translate(0.227539 0.303711)" />
-                                    </clipPath>
-                                 </defs>
-                              </svg>
-
-                           </span>
+                           <span>04</span>
                         </div>
 
                         <div class="cont">
-                           <h4>Collaboration</h4>
-                           <p>We foster strong partnerships with suppliers, clients, and stakeholders</p>
+                           <h4>Partnership</h4>
+                           <p>SGL becomes your long-term partner with you for years to come.</p>
 
                            <div class="mn-link fs19">
                               <a href="#">
@@ -740,227 +627,6 @@
                                  View the full Rituals story
                               </a>
                            </div>
-                        </div>
-                     </div>
-                  </div>
-
-                  <div class="col-md-3">
-                     <div class="missionSec-card mn-hd">
-                        <div class="icon">
-                           <span>
-                              <svg width="35" height="36" viewBox="0 0 35 36" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <g clip-path="url(#clip0_94_638)">
-                                    <path d="M0 17.8037L17.5 0.303711V25.7394L0 17.8037Z" fill="#DEB972" />
-                                    <path d="M17.5 0.303711L35 17.8037L17.5 25.7394V0.303711Z" fill="#FFF7B3" />
-                                    <path d="M17.5 25.7394L35 17.8037L17.5 35.3037V25.7394Z" fill="#DEB972" />
-                                    <path d="M28.5573 20.7253L17.5 31.7826V35.3037L35 17.8037L28.5573 20.7253Z"
-                                       fill="#FFF7B3" />
-                                    <path d="M0 17.8037L17.5 25.7394V35.3037L0 17.8037Z" fill="#FFFDC7" />
-                                 </g>
-                                 <defs>
-                                    <clipPath id="clip0_94_638">
-                                       <rect width="35" height="35" fill="white" transform="translate(0 0.303711)" />
-                                    </clipPath>
-                                 </defs>
-                              </svg>
-                           </span>
-                        </div>
-
-                        <div class="cont">
-                           <h4>Integrity</h4>
-                           <p>We foster strong partnerships with suppliers, clients, and stakeholders</p>
-
-                           <div class="mn-link fs19">
-                              <a href="#">
-                                 <div class="icon p-0">
-                                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
-                                       xmlns="http://www.w3.org/2000/svg">
-                                       <path
-                                          d="M14.6986 8.38955L8.44559 2.13656L10.0942 0.487976L19.1614 9.55527L10.0942 18.6224L8.44559 16.9739L14.6986 10.721H0.509766V8.38955H14.6986Z"
-                                          fill="#FCC78C" />
-                                    </svg>
-                                 </div>
-                                 View the full Rituals story
-                              </a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-
-                  <div class="col-md-3">
-                     <div class="missionSec-card mn-hd">
-                        <div class="icon">
-                           <span>
-                              <svg width="36" height="37" viewBox="0 0 36 37" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <g clip-path="url(#clip0_94_650)">
-                                    <path
-                                       d="M17.7233 6.53418L6.68896 14.7936L10.9037 28.1577H24.5429L28.7577 14.7936L17.7233 6.53418Z"
-                                       fill="#FFDC88" />
-                                    <path
-                                       d="M17.7233 36.3037L28.091 33.1922L24.5429 28.1577H10.9036L7.35547 33.1922L17.7233 36.3037Z"
-                                       fill="#15AA78" />
-                                    <path
-                                       d="M17.7233 36.3037L28.091 33.1922L24.5429 28.1577H10.9036L7.35547 33.1922L17.7233 36.3037Z"
-                                       fill="#DEB972" />
-                                    <path
-                                       d="M17.7233 34.1878L7.35547 33.1922L17.7233 36.3037L28.091 33.1922L17.7233 34.1878Z"
-                                       fill="#C0A36C" />
-                                    <path
-                                       d="M7.55827 4.07041L0.945801 12.866L6.68867 14.7904L17.723 6.53093L17.7212 0.309326L7.55827 4.07041Z"
-                                       fill="#FFF7B3" />
-                                    <path
-                                       d="M27.8878 4.0648L34.5003 12.8605L28.7575 14.7849L17.7231 6.52538L17.7249 0.303711L27.8878 4.0648Z"
-                                       fill="#DEB972" />
-                                    <path
-                                       d="M34.1746 23.9897L28.093 33.1831L24.5449 28.1485L28.7675 14.7871L34.5126 12.8698L34.1746 23.9897Z"
-                                       fill="#FFF7B3" />
-                                    <path
-                                       d="M34.5128 12.8698L32.0648 23.3886L28.0933 33.1831L34.1749 23.9897L34.5128 12.8698Z"
-                                       fill="#C0A36C" />
-                                    <path
-                                       d="M1.28133 23.9926L7.36292 33.1859L10.911 28.1514L6.68849 14.7899L0.943359 12.8727L1.28133 23.9926Z"
-                                       fill="#DEB972" />
-                                 </g>
-                                 <defs>
-                                    <clipPath id="clip0_94_650">
-                                       <rect width="35" height="36" fill="white"
-                                          transform="translate(0.228027 0.303711)" />
-                                    </clipPath>
-                                 </defs>
-                              </svg>
-
-                           </span>
-                        </div>
-
-                        <div class="cont">
-                           <h4>Quality</h4>
-                           <p>We foster strong partnerships with suppliers, clients, and stakeholders</p>
-
-                           <div class="mn-link fs19">
-                              <a href="#">
-                                 <div class="icon p-0">
-                                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
-                                       xmlns="http://www.w3.org/2000/svg">
-                                       <path
-                                          d="M14.6986 8.38955L8.44559 2.13656L10.0942 0.487976L19.1614 9.55527L10.0942 18.6224L8.44559 16.9739L14.6986 10.721H0.509766V8.38955H14.6986Z"
-                                          fill="#FCC78C" />
-                                    </svg>
-                                 </div>
-                                 View the full Rituals story
-                              </a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-
-                  <div class="col-md-3">
-                     <div class="missionSec-card mn-hd">
-                        <div class="icon">
-                           <span>
-                              <svg width="37" height="36" viewBox="0 0 37 36" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <g clip-path="url(#clip0_94_666)">
-                                    <path
-                                       d="M18.2285 0.303711L23.7908 6.18945L36.2285 7.13329L27.2285 11.7147L29.3531 18.1837L18.2285 15.1294L7.10388 18.1837L9.22852 11.7147L0.228516 7.13329L12.6662 6.18945L18.2285 0.303711Z"
-                                       fill="#FFDC88" />
-                                    <path d="M7.10352 35.3037V18.1837L18.2281 15.1294V32.2494L7.10352 35.3037Z"
-                                       fill="#FFF7B3" />
-                                    <path d="M29.3531 18.1837V35.3037L18.2285 32.2494V15.1294L29.3531 18.1837Z"
-                                       fill="#DEB972" />
-                                    <path
-                                       d="M29.3531 27.7532L36.2285 24.2533V7.1333L27.2285 11.7147L29.3531 18.1837V27.7532Z"
-                                       fill="#FFF7B3" />
-                                    <path d="M32.6064 8.97689V26.0969L36.2282 24.2533V7.13324L32.6064 8.97689Z"
-                                       fill="#C0A36C" />
-                                    <path
-                                       d="M0.228516 7.1333V24.2533L7.10388 27.7532V18.1837L9.22852 11.7147L0.228516 7.1333Z"
-                                       fill="#DEB972" />
-                                 </g>
-                                 <defs>
-                                    <clipPath id="clip0_94_666">
-                                       <rect width="36" height="35" fill="white"
-                                          transform="translate(0.228516 0.303711)" />
-                                    </clipPath>
-                                 </defs>
-                              </svg>
-
-                           </span>
-                        </div>
-
-                        <div class="cont">
-                           <h4>Innovation</h4>
-                           <p>We foster strong partnerships with suppliers, clients, and stakeholders</p>
-
-                           <div class="mn-link fs19">
-                              <a href="#">
-                                 <div class="icon p-0">
-                                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
-                                       xmlns="http://www.w3.org/2000/svg">
-                                       <path
-                                          d="M14.6986 8.38955L8.44559 2.13656L10.0942 0.487976L19.1614 9.55527L10.0942 18.6224L8.44559 16.9739L14.6986 10.721H0.509766V8.38955H14.6986Z"
-                                          fill="#FCC78C" />
-                                    </svg>
-                                 </div>
-                                 View the full Rituals story
-                              </a>
-                           </div>F
-                        </div>
-                     </div>
-                  </div>
-
-                  <div class="col-md-3">
-                     <div class="missionSec-card mn-hd">
-                        <div class="icon">
-                           <span>
-                              <svg width="38" height="38" viewBox="0 0 38 38" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <g clip-path="url(#clip0_94_679)">
-                                    <path
-                                       d="M37.2275 18.8037L18.728 0.303711L0.227539 18.8037L18.728 10.328L37.2275 18.8037Z"
-                                       fill="#FFDC88" />
-                                    <path
-                                       d="M0.227539 18.8037L18.7271 37.3037L37.2275 18.8037L18.7271 27.2794L0.227539 18.8037Z"
-                                       fill="#C0A36C" />
-                                    <path d="M18.7275 27.2794V37.3037L37.228 18.8037L18.7275 27.2794Z" fill="#DEB972" />
-                                    <path d="M30.3584 21.9509L18.7275 37.3037L37.228 18.8037L30.3584 21.9509Z"
-                                       fill="#C0A36C" />
-                                    <path d="M30.3085 15.6565L18.6777 0.303711L37.1781 18.8037L30.3085 15.6565Z"
-                                       fill="#DEB972" />
-                                    <path d="M18.728 10.328V0.303711L0.227539 18.8037L18.728 10.328Z" fill="#DEB972" />
-                                    <path
-                                       d="M18.728 10.3281L0.227539 18.8037L18.7271 27.2794L37.2275 18.8037L18.728 10.3281Z"
-                                       fill="#FFF7B3" />
-                                 </g>
-                                 <defs>
-                                    <clipPath id="clip0_94_679">
-                                       <rect width="37" height="37" fill="white"
-                                          transform="translate(0.227539 0.303711)" />
-                                    </clipPath>
-                                 </defs>
-                              </svg>
-
-                           </span>
-                        </div>
-
-                        <div class="cont">
-                           <h4>Collaboration</h4>
-                           <p>We foster strong partnerships with suppliers, clients, and stakeholders</p>
-
-                           <div class="mn-link fs19">
-                              <a href="#">
-                                 <div class="icon p-0">
-                                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none"
-                                       xmlns="http://www.w3.org/2000/svg">
-                                       <path
-                                          d="M14.6986 8.38955L8.44559 2.13656L10.0942 0.487976L19.1614 9.55527L10.0942 18.6224L8.44559 16.9739L14.6986 10.721H0.509766V8.38955H14.6986Z"
-                                          fill="#FCC78C" />
-                                    </svg>
-                                 </div>
-                                 View the full Rituals story
-                              </a>
-                           </div>F
                         </div>
                      </div>
                   </div>
