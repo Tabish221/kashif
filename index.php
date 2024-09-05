@@ -1,4 +1,4 @@
-<!-- https://we.tl/t-pzdRmpaxxU -->
+<!-- https://docs.google.com/document/d/1YcacACyGB1EGUzIZH6i47H6MQB7krjrqKOB-a_3Vygk/edit -->
 
 <!DOCTYPE html>
 <html lang="en" class="is-smooth-scroll-compatible is-loading">
@@ -40,7 +40,7 @@
 
          <div class="bannerBefore">
             <div class="ssLine">
-               <a href="#">
+               <a href="https://www.facebook.com/sabgoldlimited" target="_blank">
                   <svg width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <path
                         d="M4.69167 7.38128H6.24376L6.86459 4.89795H4.69167V3.65628C4.69167 3.01721 4.69167 2.41462 5.93334 2.41462H6.86459V0.328678C6.66238 0.301827 5.89795 0.241699 5.09081 0.241699C3.40556 0.241699 2.20834 1.27033 2.20834 3.15944V4.89795H0.34584V7.38128H2.20834V12.6584H4.69167V7.38128Z"
@@ -48,7 +48,7 @@
                   </svg>
                </a>
 
-               <a href="#">
+               <a href="https://www.instagram.com/sabgoldlimited/" target="_blank">
                   <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <path
                         d="M8.08828 1.76709C8.78697 1.76824 9.14103 1.77194 9.44698 1.78105L9.56748 1.78499C9.70667 1.78994 9.844 1.79614 10.0096 1.80391C10.6702 1.83443 11.1209 1.93894 11.5166 2.09259C11.9258 2.25039 12.2715 2.46354 12.6165 2.80862C12.9611 3.1537 13.1743 3.50033 13.3326 3.90853C13.4857 4.3038 13.5902 4.75494 13.6213 5.4156C13.6287 5.58116 13.6346 5.71849 13.6395 5.8577L13.6434 5.9782C13.6525 6.28411 13.6567 6.63823 13.658 7.33694L13.6585 7.79983C13.6585 7.85639 13.6585 7.91475 13.6585 7.97497L13.6585 8.15011L13.6581 8.61306C13.6569 9.31175 13.6532 9.66587 13.6441 9.97176L13.6401 10.0923C13.6352 10.2315 13.629 10.3688 13.6213 10.5344C13.5907 11.195 13.4857 11.6456 13.3326 12.0414C13.1748 12.4507 12.9611 12.7963 12.6165 13.1414C12.2715 13.4859 11.9243 13.6991 11.5166 13.8574C11.1209 14.0105 10.6702 14.115 10.0096 14.1461C9.844 14.1534 9.70667 14.1595 9.56748 14.1643L9.44698 14.1682C9.14103 14.1773 8.78697 14.1814 8.08828 14.1828L7.62533 14.1833C7.56877 14.1833 7.51041 14.1833 7.45019 14.1833H7.27505L6.8121 14.1829C6.11341 14.1818 5.7593 14.178 5.45339 14.1689L5.33289 14.165C5.19367 14.16 5.05634 14.1538 4.89079 14.1461C4.23012 14.1156 3.78002 14.0105 3.38372 13.8574C2.975 13.6996 2.62889 13.4859 2.28381 13.1414C1.93873 12.7963 1.72609 12.4491 1.56778 12.0414C1.41413 11.6456 1.31014 11.195 1.27909 10.5344C1.27172 10.3688 1.2657 10.2315 1.26083 10.0923L1.25692 9.97176C1.24784 9.66587 1.2437 9.31175 1.24236 8.61306L1.24228 7.33694C1.24343 6.63823 1.24713 6.28411 1.25624 5.9782L1.26018 5.8577C1.26513 5.71849 1.27133 5.58116 1.27909 5.4156C1.30961 4.75442 1.41413 4.30431 1.56778 3.90853C1.72557 3.49982 1.93873 3.1537 2.28381 2.80862C2.62889 2.46354 2.97552 2.25091 3.38372 2.09259C3.7795 1.93894 4.2296 1.83495 4.89079 1.80391C5.05634 1.79654 5.19367 1.79052 5.33289 1.78565L5.45339 1.78174C5.7593 1.77265 6.11341 1.76851 6.8121 1.76717L8.08828 1.76709ZM7.45019 4.87082C5.73488 4.87082 4.34601 6.2612 4.34601 7.97497C4.34601 9.69027 5.73639 11.0791 7.45019 11.0791C9.16549 11.0791 10.5544 9.68878 10.5544 7.97497C10.5544 6.25969 9.16394 4.87082 7.45019 4.87082ZM7.45019 6.11249C8.47885 6.11249 9.31269 6.94606 9.31269 7.97497C9.31269 9.00363 8.4791 9.83747 7.45019 9.83747C6.42153 9.83747 5.58768 9.00394 5.58768 7.97497C5.58768 6.94631 6.42122 6.11249 7.45019 6.11249ZM10.7096 3.93957C10.2816 3.93957 9.93352 4.28718 9.93352 4.71509C9.93352 5.143 10.2811 5.49114 10.7096 5.49114C11.1374 5.49114 11.4856 5.14354 11.4856 4.71509C11.4856 4.28718 11.1369 3.93904 10.7096 3.93957Z"
@@ -57,16 +57,16 @@
 
                </a>
 
-               <a href="#">
+               <!-- <a href="#" target="_blank">
                   <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <path
                         d="M11.3021 0.446777H13.3559L8.8691 5.57486L14.1474 12.553H10.0145L6.77751 8.32081L3.07364 12.553H1.01869L5.81773 7.06797L0.754211 0.446777H4.99202L7.91798 4.31519L11.3021 0.446777ZM10.5814 11.3238H11.7193L4.37367 1.61146H3.15249L10.5814 11.3238Z"
                         fill="white" />
                   </svg>
 
-               </a>
+               </a> -->
 
-               <a href="#">
+               <a href="https://www.linkedin.com/company/sabgoldlimited/" target="_blank">
                   <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <path
                         d="M3.30888 1.67924C3.30865 2.18479 3.00194 2.63973 2.53337 2.82952C2.0648 3.01932 1.52795 2.90608 1.17596 2.54321C0.823964 2.18032 0.727126 1.64026 0.931101 1.17769C1.13508 0.715124 1.59914 0.422407 2.10446 0.437574C2.77563 0.45772 3.30918 1.00777 3.30888 1.67924ZM3.34613 3.83974H0.862797V11.6126H3.34613V3.83974ZM7.26981 3.83974H4.79888V11.6126H7.24498V7.53368C7.24498 5.26143 10.2064 5.05035 10.2064 7.53368V11.6126H12.6586V6.68935C12.6586 2.85882 8.27556 3.00162 7.24498 4.88272L7.26981 3.83974Z"
@@ -254,7 +254,7 @@
                         <div class="row">
                            <div class="col-md-6">
                               <div class="aboutSec-imgCard nx3 wow fadeInDown" data-wow-delay="0.6s">
-                                 <span>2011</span>
+                                 <span>2019</span>
                                  <img src="assets/images/about/3.png" alt="">
                               </div>
                            </div>
@@ -290,12 +290,48 @@
                         </div>
 
                         <div class="col-md-7">
-                           <div class="aboutSec-img text-end wow fadeInDown" data-wow-delay="0.3s">
-                              <div class="aboutSec-contCard"  data-scroll  data-scroll-speed1="3">
-                                 <div class="">
-                                    <h5>2019</h5>
-                                    <p>Founded SGL to position Tanzania’s gold industry on a global scale and build a robust
-                                       international gold export network.</p>
+                           <div class="aboutSec-slider">
+                              <div class="">
+                                 <div class="aboutSec-img text-end wow fadeInDown" data-wow-delay="0.3s">
+                                    <div class="aboutSec-contCard"  data-scroll  data-scroll-speed1="3">
+                                       <div class="">
+                                          <h5>2019</h5>
+                                          <p>Founded SGL to position Tanzania’s gold industry on a global scale and build a robust international gold export network.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="">
+                                 <div class="aboutSec-img text-end wow fadeInDown" data-wow-delay="0.3s">
+                                    <div class="aboutSec-contCard"  data-scroll  data-scroll-speed1="3">
+                                       <div class="">
+                                          <h5>2023</h5>
+                                          <p>Exported over 100 tonnes of Tanzanian gold bullion to investors and jewellery makers around the world.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="">
+                                 <div class="aboutSec-img text-end wow fadeInDown" data-wow-delay="0.3s">
+                                    <div class="aboutSec-contCard"  data-scroll  data-scroll-speed1="3">
+                                       <div class="">
+                                          <h5>2024</h5>
+                                          <p>Launched a licensed gold refinery to support Tanzanian artisanal miners and elevate the standards of locally mined and refined gold.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="">
+                                 <div class="aboutSec-img text-end wow fadeInDown" data-wow-delay="0.3s">
+                                    <div class="aboutSec-contCard"  data-scroll  data-scroll-speed1="3">
+                                       <div class="">
+                                          <h5>2025</h5>
+                                          <p>More great milestones to achieve…</p>
+                                       </div>
+                                    </div>
                                  </div>
                               </div>
                            </div>
@@ -308,14 +344,14 @@
                         <div class="row">
                            <div class="col-md-6">
                               <div class="aboutSec-imgCard nx2 wow fadeInDown" data-wow-delay="0.4s">
-                                 <span>2019</span>
+                                 <span>2023</span>
                                  <img src="assets/images/about/2.png" alt="">
                               </div>
                            </div>
 
                            <div class="col-md-6">
                               <div class="aboutSec-imgCard nx1 wow fadeInDown" data-wow-delay="0.6s">
-                                 <span>1999</span>
+                                 <span>2025</span>
                                  <img src="assets/images/about/1.png" alt="">
                               </div>
                            </div>
@@ -408,9 +444,8 @@
                            </div>
 
                            <div class="sec2-cont mn-hd">
-                              <h4>Sustainable Mining</h4>
-                              <p>We abide by responsible mining practices to ensure safety of our miners and the
-                                 environment.</p>
+                              <h4>Refining Capacity</h4>
+                              <p>Our talented refiners and world-class equipment are able to refine and deliver over 30 tonnes of pure physical gold annually.</p>
                            </div>
                         </div>
                      </div>
@@ -422,9 +457,8 @@
                            </div>
 
                            <div class="sec2-cont mn-hd">
-                              <h4>Refining Capacity</h4>
-                              <p>Our talented refiners and world-class equipment are able to refine and deliver over 30
-                                 tonnes of pure physical gold annually.</p>
+                              <h4>Sustainable Mining</h4>
+                              <p>We abide by responsible mining practices to ensure safety of our miners and the environment.</p>
                            </div>
                         </div>
                      </div>
@@ -437,8 +471,7 @@
 
                            <div class="sec2-cont mn-hd">
                               <h4>Global Export</h4>
-                              <p>Our global trade network enables us to export high-quality gold to countries such as
-                                 UAE, KSA, India, Pakistan and many more.</p>
+                              <p>Our global trade network enables us to export high-quality gold to countries such as UAE, KSA, India, Turkey and many more.</p>
                            </div>
                         </div>
                      </div>
@@ -592,10 +625,11 @@
 
       <div class="contactSec-main">
          <div class="container-fluid">
-            <div class="row align-items-center">
+            <div class="row">
                <div class="col-md-4 wow fadeInLeft" data-wow-delay="0.3s">
                   <div class="contactSec-map">
-                     <img src="assets/images/map.png" alt="MAP">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d830.6603099386535!2d32.5850433!3d-3.8210304!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zM8KwNDknMTUuMiJTIDMywrAzNScwNi42IkU!5e1!3m2!1sen!2s!4v1725494180022!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                     <!-- <img src="assets/images/map.png" alt="MAP"> -->
                   </div>
                </div>
 
@@ -607,35 +641,35 @@
                            <div class="col-md-6">
                               <div class="contactSec-formFeild">
                                  <label for="">Your Name</label>
-                                 <input type="text" placeholder="e.g David Henry*">
+                                 <input type="text">
                               </div>
                            </div>
 
                            <div class="col-md-6">
                               <div class="contactSec-formFeild">
                                  <label for="">Email Address</label>
-                                 <input type="email" placeholder="e.g David Henry*">
+                                 <input type="email">
                               </div>
                            </div>
 
                            <div class="col-md-6">
                               <div class="contactSec-formFeild">
                                  <label for="">Telephone Number</label>
-                                 <input type="text" placeholder="e.g David Henry*">
+                                 <input type="text">
                               </div>
                            </div>
 
                            <div class="col-md-6">
                               <div class="contactSec-formFeild">
                                  <label for="">Required Service</label>
-                                 <input type="text" placeholder="e.g David Henry*">
+                                 <input type="text">
                               </div>
                            </div>
 
                            <div class="col-md-12">
                               <div class="contactSec-formFeild">
                                  <label for="">Message</label>
-                                 <textarea placeholder="e.g David Henry*"></textarea>
+                                 <textarea></textarea>
                               </div>
                            </div>
 

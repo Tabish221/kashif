@@ -1196,10 +1196,10 @@
 
       <div class="contactSec-main">
          <div class="container-fluid">
-            <div class="row align-items-center">
+            <div class="row">
                <div class="col-md-4">
                   <div class="contactSec-map">
-                     <img src="assets/images/map.png" alt="MAP">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d830.6603099386535!2d32.5850433!3d-3.8210304!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zM8KwNDknMTUuMiJTIDMywrAzNScwNi42IkU!5e1!3m2!1sen!2s!4v1725494180022!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                   </div>
                </div>
 
@@ -1211,35 +1211,35 @@
                            <div class="col-md-6">
                               <div class="contactSec-formFeild">
                                  <label for="">Your Name</label>
-                                 <input type="text" placeholder="e.g David Henry*">
+                                 <input type="text">
                               </div>
                            </div>
 
                            <div class="col-md-6">
                               <div class="contactSec-formFeild">
                                  <label for="">Email Address</label>
-                                 <input type="email" placeholder="e.g David Henry*">
+                                 <input type="email">
                               </div>
                            </div>
 
                            <div class="col-md-6">
                               <div class="contactSec-formFeild">
                                  <label for="">Telephone Number</label>
-                                 <input type="text" placeholder="e.g David Henry*">
+                                 <input type="text">
                               </div>
                            </div>
 
                            <div class="col-md-6">
                               <div class="contactSec-formFeild">
                                  <label for="">Required Service</label>
-                                 <input type="text" placeholder="e.g David Henry*">
+                                 <input type="text">
                               </div>
                            </div>
 
                            <div class="col-md-12">
                               <div class="contactSec-formFeild">
                                  <label for="">Message</label>
-                                 <textarea placeholder="e.g David Henry*"></textarea>
+                                 <textarea></textarea>
                               </div>
                            </div>
 
