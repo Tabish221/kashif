@@ -12,9 +12,9 @@
 </head>
 
 <body>
+   <?php include("includes/header.php"); ?>
    
    <section class="mainBanner homeBanner" style="background-image: url(assets/images/banner/bg-banner.jpg);">
-      <?php include("includes/header.php"); ?>
       <div class="vidAfter">
          <video autoplay muted loop>
             <source src="assets/video/refiningvideo.mp4" type="video/mp4">
@@ -728,7 +728,7 @@
 
    <?php include("includes/scripts.php"); ?>
 
-   <script>
+   <!-- <script>
       gsap.registerPlugin(ScrollTrigger);
 
       // Create a timeline for each section to scroll as a full-page slide
@@ -741,6 +741,51 @@
             scrub: true, // Smooth scroll scrubbing
             snap: 1, // Snap to the next section (1 means full snap)
          });
+      });
+   </script> -->
+
+   <script>
+      gsap.registerPlugin(ScrollTrigger);
+
+      // Pin each section while scrolling
+      gsap.utils.toArray("section").forEach((section) => {
+         ScrollTrigger.create({
+            trigger: section,
+            start: "top top",   // Start when the section hits the top of the viewport
+            pin: true,          // Pin the section in place
+            pinSpacing: false,  // Prevent spacing between sections
+            scrub: false,       // Disable scrub for smoother performance
+            snap: 1,            // Snap to the next section
+            end: "+=100%",      // Adjust the end value as needed
+            // onEnter: () => { // This funtion use and video play
+            //    if (section.classList.contains("section1")) {
+            //       const video1 = document.getElementById("video1");
+            //       video1.style.display = "block"; // Show video
+            //       video1.play(); // Play video
+            //    } else if (section.classList.contains("section3")) {
+            //       const video3 = document.getElementById("video3");
+            //       video3.style.display = "block"; // Show video
+            //       video3.play(); // Play video
+            //    }
+            // },
+         });
+      });
+
+      // Scroll direction detection
+      let lastScrollTop = 0;
+
+      window.addEventListener("scroll", function() {
+         const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+         if (scrollTop > lastScrollTop) {
+            // Scrolling down
+            document.body.setAttribute("data-direction", "down");
+         } else {
+            // Scrolling up
+            document.body.setAttribute("data-direction", "up");
+         }
+
+         lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Prevent negative scroll
       });
    </script>
 </body>

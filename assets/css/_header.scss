@@ -12,11 +12,11 @@ header {
     -moz-transition: all 0.4s ease-In-out;
     -o-transition: all 0.4s ease-In-out;
     transition: all 0.4s ease-In-out;
-    position: absolute;
+    position: fixed;
     width: 1920px;
     max-width: 100%;
     margin: auto;
-    z-index: 5;
+    z-index: 10;
     right: 0;
     left: 0;
     top: 0;
